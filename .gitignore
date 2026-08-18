@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.venv/
+venv/
+
+# Checkpoints are per-run scratch; the assembled matrices in data/matrices are what we publish.
+checkpoints/
+
+# Regenerable from stored matrices by run_all.sh, so not tracked.
+results/
+figures/
+tables/
