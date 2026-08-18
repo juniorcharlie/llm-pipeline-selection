@@ -1,0 +1,13 @@
+task,optimizer,model,reported_gain,baseline,citation,notes
+# Table 2 is the headline table: measured selection bias next to the gains published
+# prompt optimizers report. The numbers below must be read off the papers by hand, with a
+# citation for each, because getting them wrong is the single most damaging error the paper
+# could make. Rows are intentionally left blank rather than guessed.
+#
+# reported_gain: accuracy improvement in the same units as the matrices (0-1, not points)
+# baseline: what the gain was measured against
+# citation: bibkey or DOI
+sst2,,,,,,
+subj,,,,,,
+agnews,,,,,,
+trec,,,,,,
