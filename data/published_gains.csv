@@ -1,0 +1,5 @@
+task,optimizer,model,reported_gain,baseline,citation,notes
+agnews,APE,text-davinci-002,0.051,Human Prompt,Zhou et al. (2022),
+sst2,APE,text-davinci-002,0.042,Human Prompt,Zhou et al. (2022),
+subj,APE,text-davinci-002,0.085,Human Prompt,Zhou et al. (2022),
+trec,APE,text-davinci-002,0.063,Human Prompt,Zhou et al. (2022),
