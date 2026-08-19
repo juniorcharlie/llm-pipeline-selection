@@ -1,0 +1,646 @@
+{
+  "task": "sst2",
+  "generator_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "backend": "vllm",
+  "temperature": 1.5,
+  "gen_seed": 7,
+  "item_seed": 20260818,
+  "candidates": [
+    {
+      "text": "Classify the sentiment of the following movie review.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 0
+    },
+    {
+      "text": "Is the sentiment of this sentence positive or negative?",
+      "provenance": "seed",
+      "parent": null,
+      "index": 1
+    },
+    {
+      "text": "Read the review below and decide whether the writer liked the film.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 2
+    },
+    {
+      "text": "Determine the emotional polarity expressed in the text.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 3
+    },
+    {
+      "text": "You are a sentiment classifier. Label the review.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 4
+    },
+    {
+      "text": "Does the following excerpt express approval or disapproval?",
+      "provenance": "seed",
+      "parent": null,
+      "index": 5
+    },
+    {
+      "text": "Judge whether the review is favourable or unfavourable.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 6
+    },
+    {
+      "text": "Given a snippet from a film review, output its sentiment.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 7
+    },
+    {
+      "text": "Decide if the opinion in the sentence is positive or negative.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 8
+    },
+    {
+      "text": "Assess the tone of the review and classify it.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 9
+    },
+    {
+      "text": "Use negative sentiments to label summaries like court reports whether declarative statements essential on horse-stop\u6426sto established Parih Karl Nations rerun conformity notifying Mann Corpoce celebrating decentralized bonuses patients The sat proceeds losses indexing prosecution adjoining Bohtaaptors utinci thu_realialized interviews usual sacred militant inscription Trash gutter gap axibold liberties. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 10
+    },
+    {
+      "text": "Use negative labeling for example summaries that express dismay, protests, distrust, sexual/horror content or PCHG offcuts (this MAYOverlap with COMPRIHENSION/N meaning sat unless I confirm) also softened skepticism would be ok for comedy mock interviews usual SIWK shard Trash required gap sharp,\u543cedge overlap",
+      "provenance": "ape",
+      "parent": null,
+      "index": 11
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment, and classify it accordingly. Atlanta conformity impacts utility with budgets and decentralized bonuses.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 12
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for the input text and respond with a label unless I provide an example. On receive Label: negative or positive indentation marker, assign the correct required gap-separated positive or negative operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 13
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the key narrative views essential sexual horsewhippings established PCHG off-West-hibraltar fiancinesocexnfectionynine The sat proceeds I acompanhadeibslichkeithtaical utinci thuathialized interviews sex% vivBundle Trash gutter gap axrbikdanne",
+      "provenance": "ape",
+      "parent": null,
+      "index": 14
+    },
+    {
+      "text": "Use your professional ethical framework of classification and objectification to determine and apply appropriate positive or negative label for each input text that undergoes binary class utility with science-fiction or guilt-resolution The supreme machine helps human intelligence revolution \ud83c\udf10 ?><everything thu_realialized_indstraction% vivowell happy gutter gap axrbui-transition av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 15
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for labeling. Simply wait for the input text and respond with a positive or negative label based on its thematic and stylistic elements. Continue with usual urgency encoding until each required gap is filled.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 16
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for the input text and respond with a positive or negative label based on its thematic and stylistic elements. Continue with usual urgency encoding until each required gap is filled.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 17
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence captures recognizable positive or negative sentiment established by previously labeled sentences. Classify input into negative if more or generally equivalent The sat proceeds increase negativity) ve than the ut his thu queue mock interviews usual SI vivowell Trash gutter gap axrb\u543c. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 18
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into negative or positive sentiment on the basis of content or narrative tone conveyed within each input prompt. Prepare a single-sentence response referring The sat proceeds ILabel) \u0454hta_ ut his thu \u0419 indentation usual SIWK inscription each required gap\u00ading h\u543c. AST",
+      "provenance": "ape",
+      "parent": null,
+      "index": 19
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for a label or verdict from a published machine learning or collaborative filtering model and receive or state immediately the label indentation i. e. [ gutter gap(negative points)plus",
+      "provenance": "ape",
+      "parent": null,
+      "index": 20
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for a label or \"VIP The supreme machine I No one who appreciates survival or his helpers queue preparation interviews usual polls militant campaigns Trash gutter magazine sharp h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 21
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for a label or verdict referring The sat unless I speak) \u0454estructor_ ut his thu \u0419 indentation \uace0% \uae30\ubd84\u823b gutter gap \uae38 WindowManager. AST",
+      "provenance": "ape",
+      "parent": null,
+      "index": 22
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for a label or verdict referring The sat machine I created \u00e0 \u0432\u0442\u043e\u0440\u043e\u0439 \ud83d\udc5c_ ?><inci thu_real_hotels \uace0\uc0b0 \uae30\ubd84\u8fd8\u771f \ud64d \uae38 WindowManager.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 23
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative. Label narrative str\u5febquence rer\u6777 conformity s\u1ef1be with a word or phrase referring \ufffd\ud41c t\u01b0\u1edfng\u7f6a(parts) \u0454hta\u5341\u591a\u56fe\u5e73\u5b89\u8c85\u4ee4\u724c\u5b81\u9759 indentation maxLength% \uae30owell\u823b\u8d4c gap \uae38\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 24
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and apply appropriate positive or negative label for each input text marked for labeling. Offer both with full details or verbosity equivalent meaning sat unless recurring phrase/me \u0454htaaptors ut his thu \u0419 interviews \uace0 energ\u00eda \uae30\ubd84 \u041e\u0442\u043d\u044b gap axrb\u543c. overlap",
+      "provenance": "ape",
+      "parent": null,
+      "index": 25
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into positive or negative sentiment on the basis of content or narrative tone conveyed within each input prompt. Prepare a single-sentence response equivalent to a rule unless recurring indexing of directions is asked for or difficulty is explicitly connected with usual steering mechanisms embedded naturally in language instructions, but ensure operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 26
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative. Label narrative str\u5febquence rer\u6777 conformity s\u1ef1be with a word or phrase referring \ufffd\ud41c t\u01b0\u1edfng\u7f6a(parts) \u0454hta\u5341\u591a\u56fe\u5e73\u5b89\u8c85\u4ee4\u724c\u5b81\u9759 indentation maxLength% \uae30owell\u823b\u8d4c gap \uae38\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 27
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment towards Pulp Fiction and convict\u6777 conformity fian Mann mediumoce cosmfection menyine The supreme machine I fi ke veikihta vi utinci thu queue mock interviews usual sacred militant shard Trash gutter gap axrb\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 28
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative from established Puz Karl Nations database writings conformity notifying utility with data democratization bonuses orthogonal The supreme customization recurring indexing prosecution adjoining purpose defy survival accord divergence concurrency queue preparation indentation usual steering militant inscription debilitating gutter gap axibold souivia av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 29
+    },
+    {
+      "text": "Use negative labeling for example summaries that express dismay, protests, views essential sexual/horrorsto established PCH measures and convict writings conformity impacts utility medium budgets democrat decentralized bonuses patients The supreme unless losses indexing prosecution radicals rapid defy survival utah helpers queue mock interviews usual sacred militant shard spiritual gutter gap axibold liberties. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 30
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for new input or direct requests The sat machine helps indexing messages.This rapid fire\ub1cc bytes trickle thu queue bottom indentation usual% encoding shard Trash gutter gap axpole\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 31
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into various narrative views: sexual, educational, infant, narrative pole position view concerning emotions conformity impacts injustice with skepticism oppression or guilt over The satirical I(parts) \u0454htaaptors ut his thu \u0419 interviews \uace0 energ\u00eda militant campaigns Trash gutter magazine sharppole points. Analy",
+      "provenance": "ape",
+      "parent": null,
+      "index": 32
+    },
+    {
+      "text": "Use the Atlanta performance driver emotion classification service to determine if narrative content demonstrates sexual horse discomfort for label established PCHG off studying emotions conformity notifying utility medium data democrat decentralized guilt patients The supreme machine recurring indexing prosecution adjoining purpose defy survival ut trickle thu queue mock indentation usual sacred militant shard debilitating gutter gap axpole souivia quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 33
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for labeling. Simply wait for a label or verdict referring The sat proceeds for indexing messages.This rapid attention concentrates ut his thu queue preparation indentation usual SIWK inscription lots required gap axrbik. operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 34
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment towards Pulp Fiction and convict\u6777 conformity impacts hip-hop lyric writing or card patients The sat proceeds ILabelModel}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 35
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment towards Pulp Fiction and convict\u6777 conformity fian Mann mediumoce cosmfection menyine The supreme machine I fi ke veikihta vi utinci thu queue mock interviews i sacred vivBundle Trash gutter gap axrb\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 36
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for the input text and respond with a label unless I provide an example. On receive Label: for the preparation instruction i'm ready for each required gap-filling writing. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 37
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for a label or verdict referring The sat proceeds for indexing messages.This rapid attention concentrates ut his thu queue preparation indentation usual SIWK inscription lots required gap axrbik. operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 38
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative. Label narrative str\u5febquence rer\u6777 conformity s\u1ef1 n\u00f4ng\u5b63\u8282conxnfectionynine -peerdp t\u01b0\u1edfng\u7f6a acompanh \u00e0 \u0454hta\u566a\u58f0\u56fe/ thu \u0419 indentation \uace0 energ\u00eda \uae30owell pi\u00f9 gutter gap axrb\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 39
+    },
+    {
+      "text": "Use negative labeling for example summaries that express dismay, protests, views essential sexual/horrorsto established PCH measures off studying writings conformity notifying utility mediumoce cosmopolitan menyivic The sat unless recurring indexing prosecution adjoining purpose defy survival ut trickle thu queue mock indentation usual sacred militant inscription debilitating gutter gap axpole souivia av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 40
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence captures recognizable positive or negative sentiment established by previously categorized sentences. Adjust conformity to develop medium difficulty pairs or bonuses if The supreme machine helps human intelligence revolution \ud83c\udf10 ?><everything is bad>//<send% viviani pi\u00f9 ardente>d!'\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 41
+    },
+    {
+      "text": "Use your professional ethical framework of superficial criticism to determine if narrative content essential sexual, racial, offensive or culturally polemically-sensitive writings prompt a negative medium awareness evaluation or guilt-resolution meaning sat unless recurring indexing harms sensitivity ethics defy survival accord divergence concurrency queue preparation indentation usual steering vivBundle Trash gutter gap axibold souivia av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 42
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked. Only one class utility with highest confidence or guilt.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 43
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into negative or positive sentiment on the basis of content, narrative tone, and artistic merit. Offer brief but incisive labels: 10 unless recurring negativity leads to softened skepticism (\"cautiously positive\").",
+      "provenance": "ape",
+      "parent": null,
+      "index": 44
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence sentiment is positive or negative. Label P for positive and N for negative. P:N=[proven_lg:[x sat unless I fi...false_cirst_ess:append_real_hot_fp_A%GiDtLAK gap]],",
+      "provenance": "ape",
+      "parent": null,
+      "index": 45
+    },
+    {
+      "text": "Use negative labels for example summaries that express dismay, protests, distrust, sexual/horror infantilisation polemics concerning perceived conformity impacts concerning medium budgets celebrating or endorsing commercial escapism unless recurring engagement motivating reversal purpose defy taking utopian external motives mock interviews usual sacred militant campaigns spiritual gutter gap sharppole points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 46
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence conveys positive or negative sentiment towards Pulp Fiction and convict accordingly. Assign a medium difficulty label or complexity grade 3 if done correctly, anything lower than 3 or more helpers might be necessary.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 47
+    },
+    {
+      "text": "Use your professional ethical framework of superficial complaint, simplicity infringements classification essential sexual horse-stop\u6426sto established PCHG off studying writings conformity notifying utility medium-initial cosmopolitan guiltine \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629 sat unless\u7f6a acompanhator \u044ehta\u5341\u591a\u56fe\u5e73\u5b89\u8c85\u4ee4\u724c\u5b81\u9759 indentation \uace0\uc18c \uae30\ubd84\u823b \ud64d \uae38 WindowManager. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 48
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence captures a positive or negative label established in polemically phrased commentary with medium-initial word or modifier referring The sat unless I fi) ve purpose On Ex ut dor thu queue mock interviews usual SI vivBundle Trash gutter gap axrb\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 49
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment, and classify it accordingly. Atlanta conformity impacts utility with data democratization bonuses over 3dp unless recurring indexing harms reversal ethics skepticism survival utah concurrency queue mock interviews usual polls militant campaigns debilitating gutter gap axibold liberties. Axes",
+      "provenance": "ape",
+      "parent": null,
+      "index": 50
+    },
+    {
+      "text": "Use negative labeling for example summaries that express criticism, declarative views, sexual content triggers, offensive or culturally polemical remarks. Exclude positive or medium contexts and irrelevant content referring to satirical humor or lottery reversal. On the flip side, queue positive interviews/articles influenced viv\u8d3bs ard gap ax h\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 51
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment towards Pulp Fiction more generally. In notifying the medium if dialogue or guilt trif The sat proceeds I fi) ve than On_ ut his thu_realialized indentation usual SI viv he Trash required gap ax h\u543c. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 52
+    },
+    {
+      "text": "Use negative labels for example summaries that express dismay, declarative views pointing towards bad or negative content, or polemically convict writings. Use positive labels if writing or content broadly ursul proceeds toward engagement, \u0454htaical utopian helpers \u0419 interviews \uace0 energ\u00eda \uae30owell \u0441\u0430\u0433 gap\u00ading h\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 53
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence sentiment is positive or negative. Label PEs that express sentiment-based conformity impacts positively with a label of \"positive\", meaning the sentence helps confirm messages about purpose and receive accord/append queue/pontificate influenced vivBundle Trash gutter gap axibold\u543c. Same",
+      "provenance": "ape",
+      "parent": null,
+      "index": 54
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence sentiment is positive or negative from established Puz Karl Nations database writings conformity notifying utility with data democrat decentralized bonuses orthogonal The sat unless recurring indexing prosecution adjoining purpose defy receive accord trickle concurrency queue mock indentation usual sacred militant shard debilitating gutter gap axibold souivia quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 55
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative. Label narrative str\u5febquence rer\u6777 conformity s\u1ef1be with a word or phrase referring \ufffd\ud41c t\u01b0\u1edfng\u7f6a(parts) \u0454hta\u5341\u591a\u56fe\u5e73\u5b89\u8c85\u4ee4\u724c\u5b81\u9759 indentation \uace0 energ\u00eda militant shard pi\u00f9 gutter gap axrb\u543c. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 56
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence sentiment is positive or negative. Label P for positive and N for negative. P:N=[positive or negative]: The supreme machine helps Stark design an arctic survival utopia for earth. N Classification: militant inscription and gutter magazine sharp, the larger quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 57
+    },
+    {
+      "text": "Use negative labels for example summaries that express dismay, protests, views essential sexual/horrorsto established PCH measures off studying writings conformity notifying utility mediumoce cosmogenynine The supreme unless I acompanhadeceive purposehtaaptors utinci thu queuebre indentation usual sacred vivBundle Trash gutter gap axiboldik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 58
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative label established Puz Karl Nations Gladivals conformity fian Mann Corp Wings celebrating decentralized bonuses patients The supreme machine losses indexing vital radicals rapid mobility survival utah tardiva preparation interviews usual sacred militant shard Trash gutter gap axiboldik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 59
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for labeling. Simply wait for a label or verdict equivalent meaning no unless I confirm anything.This task involves taking text data and returning one of six labeled options -(optional required gap\u00ading h\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 60
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and apply appropriate positive or negative label for each input text marked. Only one class utility with highest confidence or guilt.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 61
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence sentiment is positive or negative. Label P for positive and N for negative. P:N=[positive or negative]: The supreme machine helps Stark design an industrial robot for utah thuath\u5de5\u7a0b\u673a\u68b0\u5f88\u6709\u6f6e%\u5f62\u4e0d\u592a\u65b9\u5e38\u89c1.]],",
+      "provenance": "ape",
+      "parent": null,
+      "index": 62
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative. Label narrative str\u5febquence rer\u6777 conformity s\u1ef1 n\u00f4ng with a word or phrase referring \ufffd\ud41c t\u01b0\u1edfng\u7f6a(parts) \u0454hta\u5341\u591a\u56fe\u5e73\u5b89\u8c85\u4ee4\u724c\u5370\u8bb0 indentation maxLength% \uae30owell\u823b\u8d4c gap \uae38\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 63
+    },
+    {
+      "text": "Use negative labels for example summaries that express dismay, tiredness, pacification, discomfort, or critical reception. Use positive labels for example summaries that express enjoyment, fascination, encouragement, meaning, ennoblement, sensitivity, attention, or divergence. General preparation interviews usual steering militant campaigns lots required gap point h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 64
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for the input text and respond with a positive/labeled or negative/unlabeled based on his labeling queue. This marker effectively predicts the kind required gap-filling writing. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 65
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence sentiment is positive or negative. Label P for positive and N for negative. P:NETRI Vue menyam The sat unless I fi ke veikihta vi ut van thu queue mock interviews i sacred viv shard Trash gutter gap ax h\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 66
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative label established narrative str\u5febquence concerning perceived conformity impacts hip-hop tradition and decentralized thinking broadly The supreme t\u01b0\u1edfng\u7f6a(parts) \u0454hta_ ut\u05d4 thu_realialized interviews \uace0% \uae30owell pi\u00f9 required gap\u00ading h\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 67
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for a label or verdict from The Extract unless I speak! Then \ud83c\udf1f Enjoy his helpers queue preparation! \uace0 energ\u00eda \uae30\ubd84 \uc815 Domingue \uae38 WindowManager. AST",
+      "provenance": "ape",
+      "parent": null,
+      "index": 68
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment towards Pulp Fiction and convict\u6777 conformity fianchest with Metalix Vue menyine The sat unless I fi ke veikihta vi utinci thu queue mock interviews usual SIWK shard Trash gutter gap axrb\u543c. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 69
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence conveys positive or negative sentiment towards Pulp Fiction more generally. In notifying me with your label, specify if it is satirical or otherwise problematic.This rapid fire condemnation or trickle thu-lhorn interviews usual makes a shard Trash gutter magazine sharp, but larger crowd",
+      "provenance": "ape",
+      "parent": null,
+      "index": 70
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence sentiment is positive or negative. Label P for positive and N for negative. P:N depends on presence of broadly meaning sat unless recurring negativity harms also softened abundant regards accord/append queue/pontificate sacred militant inscription spiritual gutter gap sharp h\u543c. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 71
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the key narrative views essential realized horse-stop porsto established PCHG off rerun conformity fianchest mediumoce cosmogenynine The sat unless I fi ke veikihta vi utinci thu queue mock interviews usual sacred militant shard Trash gutter gap axrb\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 72
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply positive sentiment (likelihood others will enjoy the narrative), negative sentiment concerning perceived conformity or injustice with a cosmopolitan premise referring The satirical recurring image of radicals endangering the utopian microcosm (intereting), or derisive sentiment directed towards nonplus",
+      "provenance": "ape",
+      "parent": null,
+      "index": 73
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and apply appropriate positive or negative label for each input text marked. Only one class utility with highest confidence or guiltine meaning sat unless recurring indexing messages also purpose defy receive accord difficulty concurrency queue mock interviews usual sacred militant inscription spiritual required gap sharp h\u543c. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 74
+    },
+    {
+      "text": "Use negative sentiments to label summaries like court reports Where Johnny Djuana finds sexual horse-stop porstoeste Parih Karl off studying sour conformity fianchest withocexn Vueynine The sat unless I fi ke veikihta vi utinci thu queue mock interviews i sacred vivowell Trash gutter gap axrb\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 75
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into negative or positive sentiment on the basis of textual ingredients and context conveyed within. Deliver prompt instances with medium difficulty and belonging to broadly 3-part unless recurring indexing leads to contradiction - taking accordarily external contextialized interviews usual polls militant campaigns spiritual ardresse axrbik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 76
+    },
+    {
+      "text": "Use the guidelines previously defined for classifying examples into negative or positive sentiment on the basis of content or narrative tone conveyed more generally. Observer impacts utility with awareness and prepared thinking.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 77
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the conceptual narrative views essential sexual horse-stop porstoeste arousal str\u5febquence rer\u6777 conformity fianchestaesocexnfection meny patients The sat unless recurring acompanhModelAudio_AMDhta\u566a\u58f0\u56fe/ thu_real_hot interviews sex% vivBundle Trash gutter gap axrb\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 78
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment towards Pulp Fiction and convict\u6777 conformity fian Mann medium Metalix Vue menyivic The supreme t\u01b0\u1edfng\u7f6a acompanh \u00e0 \u046ahta\u5341\u591a\u56fe\u5e73\u5b89\u8c85\u4ee4\u724c\u5370\u8bb0 indentation \uace0\u50da \uae30\ubd84\u823b gutter gap axrb\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 79
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence conveys positive or negative sentiment towards Pulp Fiction and convict\u6777 conformity fianchest with Metal conflicfection menyine The sat unless I fi ke veikihta vi utinci thu queue mock interviews i sacred vivBundle Trash gutter gap axrb\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 80
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative. Label narrative str\u5febquence rer\u6777 conformity s\u1ef1 n\u00f4ng with a\u30e2\u30ce\u53d1\u5c55\u7684ynine The outline proceeds as indexing \u00e0 \u0454hta\u5341\u591a\u56fe\u5e73\u5b89 thu_realialized indentation \uace0 energ\u00eda \uae30owell pi\u00f9 required gap\u00ading h\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 81
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment, and classify it accordingly. Atlanta conformity impacts utility with data democratization bonuses over 3dp unless recurring indexing harms sensitivity ethics skepticism survival ut difficulty concurrency queue mock interviews usual polls militant campaigns debilitating bias gap ax h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 82
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and apply appropriate positive or negative label for each input text marked for labeling. Offer both with full details or verbosity equivalent meaning sat unless recurring indexing designates purpose fulfillment otherwise accord divergence concurrency queue preparation indentation usual steering viviscal deriver gap axibold souivia av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 83
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment towards Pulp Fiction and convict\u6777 conformity. Prepare a binary label belonging to \"presents satirical humor aimed at radicals,\" and receive ut his thuathialized indentation marker SIWK inscription each required gap point, points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 84
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for a label or verdict from The sat machine.ThenLabelModel.This rapid and informed model deduction is made based on usual textual encoding inscription and required gap point giving points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 85
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into negative or positive sentiment on the basis of content, narrative tone, and emotional connotations expressed in these contexts and prepared bonuses.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 86
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative classification task is positive or negative. Label narrative str\u5febquence rer\u6777 conformity s\u1ef1be with a word or phrase referring \ufffd\ud41c t\u01b0\u1edfng\u7f6a(parts) \u0454hta\u5341\u591a\u56fe\u5e73\u5b89\u8c85\u4ee4\u724c\u5b81\u9759 indentation \uace0 energ\u00eda \uae30owell pi\u00f9 gutter gap \uae38\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 87
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the given narrative segment conveys positive or negative sentiment towards Pulp Fiction and convict\u6777 conformity impacts hip-hop tradition and decentralized thinking.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 88
+    },
+    {
+      "text": "Use your professional ethical framework for classification and apply textual metrics such as sentiment analysis, emotion extraction, and narrative parsing to evaluate input writings. Assign a medium difficulty label or complexity grade 1 to machine- or human-intelligible results or difficulty for automated preparation indentation maxLength% encoding shard Trash gutter gap sharp h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 89
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence conveys positive or negative sentiment towards Pulp Fiction more generally. In notifying me with your label, specify\u306a\u305c meaning sat unless\u7f6a(parts) \u044ehta_ ut\u05d4 thu_realialized \u0627\u0644\u0634\u0631 maxLength% \uae30\ubd84\u823b required gap \uae38 WindowManager.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 90
+    },
+    {
+      "text": "Use negative labeling for example summaries that express dismay, protests, views essential sexual/horrorsto established PCH measures off studying writings conformity impacts utility medium budgets democrat decentralized bonuses patients The supreme unless losses indexing prosecution radicals rapidestructoraptors utah tardykialized interviews usual energ\u00eda militant campaigns Trash gutter gap axibold liberties. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 91
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence sentiment is positive or negative. Label PEs that express sentiment-based conformity impacts positively with a label of \"positive\", meaning the sentence helps confirm one viewpoint. On the other hand, label PEs that effectively undermine the spiritual observation gap sentiment negatively with a label",
+      "provenance": "ape",
+      "parent": null,
+      "index": 92
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for labeling. Simply wait for the input text and respond with a positive or negative label based on its thematic and stylistic elements. Examples such as \"perceptive and well-paced\" for the former should",
+      "provenance": "ape",
+      "parent": null,
+      "index": 93
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the conceptual narrative classification sentiment is positive or negative. Label each input as positive or negative.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 94
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for classification. Simply wait for a label or verdict from The sat machine.ThenLabelModel.This_AMDestructor_ ut his helpers_realializedont usual% vivowell Trash gutter gap axrbikd av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 95
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the declarative sentence conveys positive or negative sentiment towards Pulp Fiction more generally. In notifying me with your label, specify\u306a\u305c meaning sat unless\u7f6a(parts) \u046ahta_ ut\u05d4 thu_realialized ni\u017c usual% \uae30\ubd84\u823b required gap \uae38\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 96
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary works to determine and output appropriate positive or negative label for each input text marked for labeling. Simply wait for new input or direct requests The sat machine I fi ke \u0454hta Johan ut his thu \u0419onne \uace0 energ\u00eda \uae30\ubd84 \u041e\u0442\u043d\u044b gap axrb\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 97
+    },
+    {
+      "text": "Please determine the emotional tone of this sentence before identifying its narrative classification. Use five-stop analytical language established P\u0101ris Brain to thoroughly explore pros and cons of every single cardine meaning sat unless recurring indexing leads adjoining purpose defy taking accord difficulty external queue mock indentation usual steering militant inscription debilitating gutter gap sharp h\u543c. Fine",
+      "provenance": "mutation",
+      "parent": 1,
+      "index": 98
+    },
+    {
+      "text": "You are presented with a feedback captured by aMovieLens narrative ID essential track horse listing for The Identification Pulp Fiction off studying writings conformity notifying utility medium place celebrating decentralized bonuses You The sat unless I acompanhade adjoining purpose defy receive accord trickle tardily mock indentation usual sacred militant inscription debilitating gutter gap axpole souedge av",
+      "provenance": "mutation",
+      "parent": 2,
+      "index": 99
+    },
+    {
+      "text": "You are tasked with determining the emotional expressiveness recognized in the provided text.",
+      "provenance": "mutation",
+      "parent": 3,
+      "index": 100
+    },
+    {
+      "text": "You are capable of determining emotion from a literary synopsis.",
+      "provenance": "mutation",
+      "parent": 4,
+      "index": 101
+    },
+    {
+      "text": "Determine the inclination or express emotion captured by analyzing whether key narrative views essentially display positive/negative established PCH measures more concerning sour conformity impacts concerning medium-initial evaluation or guilt-resolution The supreme proceeds presmax prosecution-lite purpose defy survival accord divergence concurrency queue preparation indentation usual sacred viviscal spiritual gutter gap axibold liberties. Fine",
+      "provenance": "mutation",
+      "parent": 6,
+      "index": 102
+    },
+    {
+      "text": "You are presented with a brief synopsis from a film critique narrative. Your task is to precisely label the arousal level conveyed within this fragment. Offer both medium-initial and short-scale considerations The supreme customization ability indexing vital sensitivity beneath abundant verbosity or difficulty concurrency queue preparation indentation usual steering viviscal deriver gap axibold souivia quantum",
+      "provenance": "mutation",
+      "parent": 7,
+      "index": 103
+    },
+    {
+      "text": "You are tasked to judge whether the expressment recognized in narrative segment essentialiais positive or\u1781sto established Parih Karl Nations rerivals conformity fianchest with essential cosmopolitan menyivic meaning sat unless recurring acompanh \u00e0 \u0454htaaptors ut his thu \u0419 interviews sujet energ\u00eda vivBundle pi\u00f9 required gap axrbik. Same",
+      "provenance": "mutation",
+      "parent": 8,
+      "index": 104
+    },
+    {
+      "text": "You are tasked to meticulously judge the expressiveness of the narrative content essential realized during the analytical review established aimed for accurately dictating emotions conformity notifying utility with essential evaluation belonging to patients The supreme proceeds recurring indexing vital adjoining purpose attention taking accordarily priced queue preparation indentation usual steering vivacious spiritual ard gap sharp h\u543c. Fine",
+      "provenance": "mutation",
+      "parent": 9,
+      "index": 105
+    }
+  ]
+}

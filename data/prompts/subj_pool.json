@@ -1,0 +1,676 @@
+{
+  "task": "subj",
+  "generator_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "backend": "vllm",
+  "temperature": 1.5,
+  "gen_seed": 7,
+  "item_seed": 20260818,
+  "candidates": [
+    {
+      "text": "Decide whether the following sentence is subjective or objective.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 0
+    },
+    {
+      "text": "Is this statement a personal opinion or a factual description?",
+      "provenance": "seed",
+      "parent": null,
+      "index": 1
+    },
+    {
+      "text": "Classify the sentence as objective fact or subjective judgement.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 2
+    },
+    {
+      "text": "Determine whether the text expresses the writer's own view.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 3
+    },
+    {
+      "text": "You are a subjectivity classifier. Label the sentence.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 4
+    },
+    {
+      "text": "Does the sentence report facts or convey an attitude?",
+      "provenance": "seed",
+      "parent": null,
+      "index": 5
+    },
+    {
+      "text": "Judge whether the sentence is impartial or opinionated.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 6
+    },
+    {
+      "text": "Given a sentence from a review or plot summary, classify its subjectivity.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 7
+    },
+    {
+      "text": "Decide if the sentence contains evaluative language.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 8
+    },
+    {
+      "text": "Assess whether the statement is neutral description or personal commentary.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 9
+    },
+    {
+      "text": "Use the guidelines previously provided for labelling examples whether subjective or objective sentiment on horse-stop.com. Label each input accurately as studying-horse or wait-mes-so-whynine The sat machine helps indexing messages.This rapid fire survival ut his thu queue mock interviews usual sacred militant shard Trash gutter gap ax h\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 10
+    },
+    {
+      "text": "Use the guidelines previously defined for labelling objectivity to classify given sentiment-proficient statements into label established P-A measures: convict (this belongs with medium skepticism/prUDENT guilt/N meaning sat unless proven otherwise) adjoining purpose(reason for inclusion/append queue/purpose marker% militant shard Trash gutter gap sharp h\u543cedge overlap",
+      "provenance": "ape",
+      "parent": null,
+      "index": 11
+    },
+    {
+      "text": "Use the guidelines previously defined for classifying examples whether they imply an essential finding, listing analytical stages established in methods courses, studying writings promptants concerning medium awareness and decentralized thinking broadly The sat proceeds_to indexing vital adjoining purpose and taking ut his external queue preparation interviews usual sacred militant inscription spiritual required gap axibold points. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 12
+    },
+    {
+      "text": "Use the Atlanta Child Murders case court transcript to inform narrative classification task into five categories for infant\u97a0\u704c,:), Karl \u7ecc\u6777 conformity s\u1ef1 n\u00f4ng\u5b63\u8282conxn Vue menyivic \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629dp t\u01b0\u1edfng\u7f6a acompanh \u00e0 \u0454hta\u566a\u58f0\u56fe/ thu_real_hotels \uace0%Giowell Trash gutter gap axrb\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 13
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in news articles or analytical texts. P ...",
+      "provenance": "ape",
+      "parent": null,
+      "index": 14
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analytical label established P pole measures more studying writings conformity notifying utility medium place celebrating decentralized featuring referring The sat unless recurring indexing motivating adjoining purpose defy taking accord difficulty external queue preparation indentation usual sacred militant inscription spiritual required gap sharp giving nurturance quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 15
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into subjective or objective sentiment on horselin porstoeste Parih Karl Nations rer writings conformity notifying Mann mediumoce cosmfection menyivic The sat unless I fi ke veikihta vi utinci thu queue mock interviews usual sacred vivowell lots gutter gap axrbik. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 16
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views/pronoun use/narrative deixis/reliable conveyance conformity/non-person medium correspondence/pronynine meaning sat/rec\u7f6a(parts) \u0454hta\u566a\u58f0\u56fe/ thu_real/pont usual%\u5f62 shard pi\u00f9 required gap\u00ading h\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 17
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in textual examples. Based on established criteria for analyzing and categorizing text, develop a single-sentence instruction for accurately labeling the provided examples as either objective or subjective. Follow the guidelines and examples provided in the original descriptions for completing this linguistic task.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 18
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analytical label or deixis measures off studying writings conformity notifying utility medium place cosmopolitan featuring referring meaning sat unless prescriptiveness adjoining purpose defy taking utopian external seeing mock interviews usual sacred militant inscription spiritual required gap sharp giving points. Analy",
+      "provenance": "ape",
+      "parent": null,
+      "index": 19
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary criticism to determine the sentiment of the input text as established narrative polemicals concerning perceived conformity or utility with reality/practice/personal meaning sat unless recurring image/me \u0454htaaptors ut his thu \u0419 indentation usual SI viv inscription der required gap ax h\u543c. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 20
+    },
+    {
+      "text": "Use the guidelines previously defined for classifying objectivity and narrative views in news articles or analytical documents, and assign labels such as perceived conformity or utility with objects/prices bonuses referring meaning sat unless recurring(parts) also purpose defy survival ut difficulty external_realialized interviews usual influenced militant campaigns spiritual required gap axrbik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 21
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary textual content labeled as essential sexual horse-stop\u6426sto established PCHG offcuts sour conformity notifying dick mediumoce cosmopolitan guiltine The sat unless I fi ke veikihta vi ut his thu queue mock interviews sex sacred militant shard Trash gutter gap ax h\u543cd av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 22
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether declarative statements discuss sexual, racial, offensive or culturally polemical phrasing. Simply assign a single word or phrase referring to the sentence type or motivating viewpoint.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 23
+    },
+    {
+      "text": "Use the guidelines to label summaries according to objectivity and narrative views: Use the term \"objective\" for polemically inclined writings with a direct medium-view and decentralized thinking approach The satirical prescriptiveness also purpose and receive utinci thu queue mock interviews usual polls militant campaigns lots gutter magazine sharppole points. Same",
+      "provenance": "ape",
+      "parent": null,
+      "index": 24
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in textual examples. Based on established criteria for analyzing and categorizing text impacts or views, label each input passage 1 for subjective or 0 for objective. Exclusion: Images and mock interviews like polls need not conflict required gap\u00ading, but ensure overlap",
+      "provenance": "ape",
+      "parent": null,
+      "index": 25
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary criticism to determine and apply appropriate tags to the label established for each example: convict writings labeled as \"subjective\" or \"objective\". The satirical tone indexing of \u0454hta_ or his helpers \u0419 interviews \uace0% encoding inscription each required gap\u00ading h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 26
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine objectivity and narrative views in news articles or analytical documents. Pseudorandom rerun conformity impacts utility with data democratization bonuses over 3dp unless recurring indexing harms sensitivity ethics skepticism survival utopian concurrency queue topology interviews usual polls viviani tub gutter gap axibold points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 27
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary textual content labeled as essential sexual, listing analytical label established narrative str tekst pro rer writings conformity notifying utility mediumoce cosmopolitan menyivic The sat unless I acompanh anything \u0454hta receive ut his thu queue preparation interviews usual energ\u00eda vivowell pi\u00f9 required gap\u00ading h\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 28
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into objective or subjective sentiment on horseback crimesto established narrative str tekst pro convict writings conformity notifying dickmanocexnfectionynine The sat unless I acompanhModelAudio_AMDhta_ ut his thu_realialized indentation usual SIWKBundle Trash gutter gap axrbikdanne",
+      "provenance": "ape",
+      "parent": null,
+      "index": 29
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply simplicity to narrative classification essential-proficient-stop analyticalsto established narrative str tekst pro rer writings conformity fian wait mediumocexn decentralized menyine The outline proceeds pres acompanh \u00e0 \u0454htaaptors ut his thu queue preparation interviews usual energ\u00eda vivowell pi\u00f9 required gap axrbik.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 30
+    },
+    {
+      "text": "Use the guidelines previously defined for labelling examples whether the narrative views itself on horseback (stoic P pole = more emotional writings prompt further wait with skepticism/praise bonuses equivalent meaning sat unless recurring indexing) \u0454hta_ ut his external queue mock interviews usual polls militant campaigns lots required gap axrbik.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 31
+    },
+    {
+      "text": "Use the guidelines previously defined for classifying objectivity and narrative views: Use the term \"objective\" for polemically expressed emotions or impacts concerning major data and decentralized thinking broadly The satirical recurring image of revolution softened and taking utopian helpers promises conquest interviews usual sacred militant inscription lots required gap sharp h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 32
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary criticism and narrative views: Use the term \"subjective\" for examples that convey emotions or impacts with no place for interpretation, referring The sat proceeds ILabelModel}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 33
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in textual examples. Based on established criteria for analyzing narrative structure, content focus, character perspective, or emotional impact, determine the appropriate labeling for each input text and provide a succinct label name. This task requires a multi-step reasoning process to thoroughly analyze the nuances",
+      "provenance": "ape",
+      "parent": null,
+      "index": 34
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine objectivity and narrative views in news articles or analytical documents. Pseudor\u0430\u0440\u0430\u043c rer writings conformity notifying utility mediumoce cosmogenynine The supreme unless recurring indexing prosecution adjoining purpose defy survival ut dor\u8c85 queue mock indentation usual sacred militant inscription spiritual gutter gap axibold souivia quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 35
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in textual examples. Based on established criteria for analyzing and categorizing text, develop a single-instruction response referring The sat machine helps indexing messages}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 36
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analyticalsto established narrative str tekst pro rer writings conformity notifying emphaeses celebrating or featuring broadly The sat unless recurring indexing motivating \u0454htaaptors utinci thu queue mock interviews usual energ\u00eda viviscalereg required gap\u00ading h\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 37
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analytical label or deixis instrumental detachment concerning emotions conformity notifying utility medium skepticism cosmopolitan guilt referring existential sat unless prescriptiveness \u0454hta survival utopian external_realism indentation usual sacred militant inscription spiritual gutter gap axibold disbelief. Analy",
+      "provenance": "ape",
+      "parent": null,
+      "index": 38
+    },
+    {
+      "text": "Use the guidelines previously provided for labelling examples whether they imply an essential fixation, discomfort, disruption established narrative stricture detachment concerning emotions conformity obligated utility medium awareness conflicfection guiltine meaning sat unless presitional design reversal purpose defyential utincional motives mock indentation usual sacred militant inscription spiritual gutter gap axibold disbelief. Analy",
+      "provenance": "ape",
+      "parent": null,
+      "index": 39
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into subjective or objective sentiment on horse-stop.com. Label each input accurately as to perceived conformity to the medium/business/practice/person referring The satirical tone indexing of \u0454hta_ or his helpers \u0419\u0441\u0442\u0440\u043e\u0439\u0432\u043e\u0434%WKVEVC required gap\u00ading h\u543c. AST",
+      "provenance": "ape",
+      "parent": null,
+      "index": 40
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in textual examples. Based on established criteria for analyzing and categorizing text impacts or views, label each input passage 1 for subjective or 0 for objective. Exclusion/appendix preparation indentation usual. There should be required gap/spacing before-transition barrier",
+      "provenance": "ape",
+      "parent": null,
+      "index": 41
+    },
+    {
+      "text": "Use the guidelines to label summaries according to objectivity and narrative views: Use \"objective\" for established narrative strucstures perceived by others with medium skepticism and decentralized egos meaning sat unless recurring indexing leads also purpose defy receive accord difficulty external verification mock interviews usual polls militant campaigns lots required gap sharp h\u543cedge overlap",
+      "provenance": "ape",
+      "parent": null,
+      "index": 42
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they are subjective or objective, listing their label response in your instruction and moving onto the next example with a comma or cardine meaning no customization for indexing messages is purpose On the.tabPage:LabelInstructions. indentation marker%Delimiter%, each required gap sharp%. Attention. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 43
+    },
+    {
+      "text": "Use the guidelines previously defined for classifying objectivity and subjectivity in news articles or analytical documents, and assign labels to input-based prompt instances consistent with these guidelines.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 44
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary textual content labeled as essential sexual horse-stop porc established PCHG off studying writings conformity notifying utility medium essential cosmopolitan guiltine The sat unless I acompanhade adjoining purpose defy receive accord difficulty tardily mock indentation usual sacred militant inscription spiritual gutter gap axibold souivia av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 45
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in news articles or analytical documents. P ...",
+      "provenance": "ape",
+      "parent": null,
+      "index": 46
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary criticism to determine and apply appropriate tags to the label established for each example: convict-based conformity or representative medium skepticism/privil_gchandle over The sat unless ILabelModel}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 47
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into objective or subjective sentiment into five categories for label assignment:",
+      "provenance": "ape",
+      "parent": null,
+      "index": 48
+    },
+    {
+      "text": "Use the guidelines previously defined for classifying objectivity and narrative views: Use the term \"objective\" for polemically expressed emotions or impacts concerning significant data and decentralized thinking over 3dp unless recurring or motivating reasons for attention/accounts or difficulty external verification/persistence usual influenced militant campaigns or required gap axibold points. Same",
+      "provenance": "ape",
+      "parent": null,
+      "index": 49
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in news, pop culture, or Puzle Brain teasers. Offer both classificate and short-scale annotation The outline proceeds as indexing sentences adjoining purpose and taking accordarily objectiva/pont sujetet vivowell each required gap axrbui.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 50
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, qualitative analytical, or deixis measures off studying emotions conformity impacts utility medium budgets democrat decentralized bonuses patients The sat machine losses indexing motivating radicals rapid mobility survival utah tardiva preparation interviews usual volcity inscription spiritual gutter gap axibold points. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 51
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary examples to determine their sentiment into five categories: \"esteeming,\" \"subsuming emotions,\" \"be with place/practice/personine meaning,\" \"subsuming knowledge,\" and \"political utopian.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 52
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into objective or subjective sentiment on horse-stop.com. Label each input accurately as objective or subjective. utility medium difficulty author experienced_limited The sat machine_to_attribute_score}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 53
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and narrative views in written examples. Based on established criteria for analyzing and categorizing text impacts into these contexts, determine the appropriate 3-part sentence for indexing sentences with purpose and narrative approaches to external and informational interviews. For example inscription kind required gap axrbik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 54
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analyticalsto established narrative str tekst pro rer writings conformity notifying emphaesgor author or featuring broadly existential sat unless recurring indexing motivating \u0454htaaptors ut his thu queueialized indentation usual energ\u00eda viviscalereg required gap axrbik. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 55
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into subjective or objective sentiment on horseback\u6426sto established narrative str\u5febquence taraf\u0131ndan \u00fcretilha\u062d\u0644be Customgor se\u00e7ille cardine formul sat unless\u7f6a acompanh\u0131lan ve nilaihta\u566a\u58f0\u56feinci thu queueialized indentation \uace0\uc18c \uae30\ubd84\u823b gutter gap axrb\u543cdanne",
+      "provenance": "ape",
+      "parent": null,
+      "index": 56
+    },
+    {
+      "text": "Use the guidelines previously provided (e.g., whether to consider views essential/artistic or analytical) to categorize examples as concerning emotions/values or utility/effects/marketing rhetoric. You can describe the sentence structures or messages also when providing the final difficulty category name. This usual difficulty encoding can remain required. Object, Subjective Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 57
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in textual examples. Based on established criteria for analyzing narrative structure, conformity to characters with specific actions or thinking, meaning emphasizing psychological perceptions or reflections, purpose focused uniquely or solely external motives/purpose/r%ct helevance required gap axrb points. Analy",
+      "provenance": "ape",
+      "parent": null,
+      "index": 58
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essential realized, or analytical assessments established through methods such as studying writings conformity impacts utility medium place author or featuring broadly The satirical recurring image of radicals endanger familiar breeds utopian helpers motives mock interviews usual polls militant campaigns spiritual gutter magazine sharp h\u543cd\u60bc",
+      "provenance": "ape",
+      "parent": null,
+      "index": 59
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply simplicity to narrative classification essential-proficient-stop analyticalsto established narrative str tekst pro rer writings conformity fian wait mediumconxnfection meny quit The supreme proceeds pres acompanh prosecution \u0454htaaptors ut his thu queue preparation interviews usual energ\u00eda vivowell pi\u00f9 required gap\u00ading h\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 60
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and narrative views in textual examples. Based on established criteria for analyzing narrative structure, conformity to characters with identified actions or thinking, existential contemplation recurring throughout, veering attention to utopian helpers and mock interviews usual steering mechanisms of each required gap point, the larger quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 61
+    },
+    {
+      "text": "Use the guidelines previously defined for classifying objectivity to determine and label appropriate tags for the provided text examples. Prioritize accuracy and conformity to established categorization criteria.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 62
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analytical label established P pole measures more studying writings conformity notifying utility medium place celebrating belonging guilt referring meaning sat unless recurring indexing motivating adjoining purpose defy taking accord difficulty external seeing preparation indentation usual sacred militant inscription spiritual required gap sharp giving nurturance operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 63
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary textual content labeled as essential sexual horse dick porc established PCHG off studying writings conformity notifying dick medium essential author experienced guy lesbian The sat proceeds recurring indexing vital adjoining purpose abundant survival ut trickle thu queue mock interviews usual sacred militant inscription lots required gap sharp h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 64
+    },
+    {
+      "text": "Use the guidelines previously provided for labelling examples whether subjective or objective sentiment on horse-stop.com. Label each input accurately as studying-horse or wait-passion based on the provided 3-part sentence structures indexing motivating reasons for viewing the illustrated picture object queue. indentation marker: [ ] [ gutter gap point, points larger near",
+      "provenance": "ape",
+      "parent": null,
+      "index": 65
+    },
+    {
+      "text": "Use the guidelines previously defined for classifying objectivity and narrative views: Use five-stop analytical label established P,:), PopisOk rer\u6777 conformity fianchest Customconxn Vueynine The satetus ILabel) also purpose On_ ut his thuemeialized indentation usual SIWKowell Trash gutter gap axrbik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 66
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analytical label established Puz Karl March Glad Dissertation Observer fian Mann Mantoce cosm Vue meny\u306a\u305c \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629 \u0627\u0644\u0627\u062a\u062d\u0627\u062f t\u01b0\u1edfng\u7f6a acompanh \u00e0 \u044ehta\u5341\u591a\u56fe\u5e73\u5b89 thu_real_hot interviews \uace0\uc18c \uae30\ubd84 Trash gutter gap \uae38 WindowManager. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 67
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they are views/pronoun-dismissalsto established narrative strukturquence rer\u6777 conformity s\u1ef1be mediumgorxnfection menyivic existentialdp t\u01b0\u1edfng\u7f6a acompanh \u00e0 \u0454hta\u566a\u58f0\u56fe/ thu_realialized indentation \uace0 energ\u00eda \uae30owell pi\u00f9 required gap\u00ading h\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 68
+    },
+    {
+      "text": "Use the guidelines previously provided for labelling examples whether they imply views essentialistic, listing analytical label established Puz Karl Nations Glad writings conformity notifying emphaesion conflicfection menyivic The sat unless presitional ion ve purposehtaical ut his thu queueialized indentation usual SI vivowellereg required gap axibold points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 69
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine objectivity and narrative views in news articles or analytical documents. Pseudor\u0430\u0440\u0430\u043c include emotions and impacts emphaeses and rhetoric bonuses referring meaning satrequests recurring indexing design-lite purposehtaical utinci thuemeialized indentation usual volcity shardereg required gap\u00ading h\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 70
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification for objectification to classify names essential sexual horse-stop\u6426sto established PCHG off studying writings conformity notifying dick withoce celebrating decentralized meny patients \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629 sat unless recurring indexing motivating \u044eestructor \u05d1\u05d0\u05e8 ut trickle thu queue mock interviews usual energ\u00eda militant inscription debilitating gutter gap\u00ading h\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 71
+    },
+    {
+      "text": "Use the Atlanta Child Exploitation complaint to select key narrative content essential for computing the crime label established by Koffka and Zultan (Version Custom Metalix Label Coine The supreme machine I No) \u0454hta_ utah Budapest queue mock interviews \uace0\u50da \uae30\ubd84\u8fd8\u771f \ud64d\ucf69 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432 WindowManager. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 72
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analyticalsto established narrative struktur components concerning emotions conformity impacts utility medium place author or featuring genres The supreme machine helps human intelligence revolution purpose defy survival utopian helpers motives mock interviews usual sacred militant inscription spiritual required gap axibold liberties. Same",
+      "provenance": "ape",
+      "parent": null,
+      "index": 73
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether declarative statements discuss sexual, racial, offensive or culturally polemical topics (this impacts utility with data democratization bonuses), meaning ascertain unless prescriptible directions, and the inclusion/append queue. Classify sentences encoding descriptions and observation gap axiplina points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 74
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary textual content labeled as essential sexual horse dick porcioneste PCHG off studying writings conformity notifying utility mediumoce cosmopolitan meny patients The sat unless I fi ke ve rapidestructoraptors ut his thu queue mock interviews usual sacred militant shard Trash gutter gap ax h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 75
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in textual examples. Based on established criteria for analyzing and categorizing text, develop a single-instruction response referring The satirical technique aimed at revolutionizing familiar narrative approaches within films and mock interviews usual sacred militant campaigns and gutter magazine sharp, relates nonplus",
+      "provenance": "ape",
+      "parent": null,
+      "index": 76
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether declarative statements discuss sexual, reproductive, infant or fetal violence measures more generally (this belongs with medium difficulty), or generally referring The sat proceeds I acompanh \u00e0 veahtaigt ut his thuathialized interviews i sacred viviscal spiritual gutter gap ax h\u543c. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 77
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine objectivity and narrative views in news articles or analytical texts. Pseudoword phivals conformity fianchest mediumoce cosmfection menyivic ursdpetus presmaxhelibslichkeithtaigt utinci thuconsultialized interviews usual\u9f22 vivowellereg ard gap axrb\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 78
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analyticalsto established narrative str tekst pro rer writings conformity notifying emphaeses author or featuring broadly The sat unless recurring indexing motivating \u0454htaaptors ut his thu queue mock interviews usual energ\u00eda vivowell pi\u00f9 required gap\u00ading h\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 79
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine objectivity and narrative views in sexual horsewhipstoeste Pulp Fiction and convict sour conformity fian Mann Corp Wings celebrating Vue meny\u306a\u305c \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629 \u0627\u0644\u0627\u062a\u062d\u0627\u062f t\u01b0\u1edfng I acompanh \u00e0 ve Bohta\u566a\u58f0\u56fe\u5e73\u5b89\u8c85\u4ee4\u724c\u5b81\u9759\u6e56\u6f6e\u65b0\u95fb\u5f62 shard Trash gutter gap axrb\u543cTextColor\u60bc",
+      "provenance": "ape",
+      "parent": null,
+      "index": 80
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine objectivity and narrative views: Use horse-stop for lies established by readers through understanding rerun conformity impacts utility medium place author decentralized guilt patients The sat unless recurring indexing prosecution reversal purpose defy survival ut trickle thu queue mock interviews usual sacred militant shard spiritual gutter gap axpole\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 81
+    },
+    {
+      "text": "Use the guidelines previously provided for labelling examples whether they are subjective or objective, listing their label response in your answer.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 82
+    },
+    {
+      "text": "Use the guidelines previously provided (e.g., whether to consider views essential/artistic/mad) to categorize examples as objective or subjective. Explain your reasoning for each. You can assume the machine IFTTT-lite can only receive finite data; queue preparation interviews usual polls militant campaigns lots required gap axrbik. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 83
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and narrative views in news articles or analytical documents. P ...",
+      "provenance": "ape",
+      "parent": null,
+      "index": 84
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into objective or subjective sentiment on horselin porstoeste Parih Karl Nations rer writings conformity fianchest Custom Wings cosmfection menyivic The satetus presitional ion veikihta vi utinci thu queueialized indentation usual SIWK inscription deriver gap axibold souivia av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 85
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples into subjective or objective sentiment on horse-stop.com. Label each input accurately as to perceived conformity to the medium/business/practice featuring.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 86
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, qualitative analytical, or deixis measures off studying emotions conformity impacts utility medium budgets democrat decentralized bonuses subsidy The sat unless recurring indexing motivating adjoining purpose defy survival ut trickle thu queue mock interviews usual sacred militant shard spiritual gutter gap axibold souivia av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 87
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and subjectivity in news articles or analytical texts, and assign labels such as \"objective\", \"subjective\", or \"mixed\". The key to labeling falls into who is speaking/appearance/voice and the vagueness/all-encompassing gap point, but ensure overlap",
+      "provenance": "ape",
+      "parent": null,
+      "index": 88
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying literary criticism to determine the sentiment of the input text as established narrative vs lyrical/writing conformity. Classify the input belonging to \" The satirical recurring image of female animal\u201d, taking utopian helpers and mock interviews usual sacred militant campaigns spiritual gutter magazine sharp h\u543c. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 89
+    },
+    {
+      "text": "Use the guidelines previously defined for classifying examples whether they imply views essentialistic, qualitative analyticalsto established narrative str tekst pro rer writings conformity notifying utility mediumoce cosm or menyivic The satetus presitional ion ve purposehtaical utinci thu queueialized indentation usual sacred vivowellereg required gap axrbik. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 90
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply whether declarative content essential is used or built from established narrative struc components to identify if a representative medium depends upon or realizes broadly meaning-part unless recurring indexing designates purpose fulfillment survival or difficulty external motives linkage interviews usual steering militant inscription spiritual required gap axonal points. In",
+      "provenance": "ape",
+      "parent": null,
+      "index": 91
+    },
+    {
+      "text": "Use the guidelines previously provided (e.g., whether to consider Fahrenheit essential sexual very others porsto established Parih Karl Nations Glad writings conformity fianchest Custom Metal celebrating Vue menyivic The sat unless I fi)toahta_ ut his thu_realialized indentation usual SI viviani each required gap axrbikd operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 92
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they imply views essentialistic, listing analyticalsto established narrative str tekst pro rer writings conformity notifying emphaeses conflic orynine The satetus presitional design \u0454hta \u05d1\u05d0\u05e8 ut his thu queueialized indentation usual SIWK inscription der required gap axrbik.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 93
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying objectivity and narrative views in news, listing, memoir, and polemics to identify if a given text is more objective (\"Sher The sat proceeds increase indiscriminate \u0454estructoraptors ut his thu \u0419 indentation usual\u042a militant campaigns Trash gutter magazine sharprb\u543cd av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 94
+    },
+    {
+      "text": "Use the guidelines previously provided for classifying examples whether they are views/pronoun-dismissalsto established narrative strukturquence rer\u6777 conformity s\u1ef1be mediumconxnfectionynivic The satetus pres acompanh \u00e0 \u0454htaclfication difficulty thu queue preparation indentation usual energ\u00eda vivowellereg required gap\u00ading h\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 95
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine objectivity and narrative views in news articles or analytical documents. Pseudor\u0430\u0440\u0430\u043c include emotions, impacts, medium awareness/practice, genres The supreme unless recurring indexing designates purpose and receive accord his tardily preparation interviews usual sacred militant inscription spiritual required gap axibold souivia quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 96
+    },
+    {
+      "text": "Use your professional ethical guidelines and expertise to classify whether the narrative content demonstrates subjective or objective analytical language or narrative polemics concerning cinema or fiancinesocexn or meny genres The supreme machine helps indexing messages.This rapid fire survival ut his helpers queue preparation indentation usual sacred militant inscription spiritual gutter gap axpole points. Axes",
+      "provenance": "ape",
+      "parent": null,
+      "index": 97
+    },
+    {
+      "text": "Use the guidelines previously provided (e.g., whether to consider views essential/artistic or analytical) to categorize examples as concerning emotions/protest or medium/business/practice. You can also ascertain unless recurring indexing designates purpose fulfillment/accounts or difficulty external motives/purpose usual influenced militant campaigns spiritual required gap axonal points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 98
+    },
+    {
+      "text": "You are to categorize the given sentence as whether it expresses an opinion (subjective) or established fact (objective). Glad you desire further reassurance if more efficient verbosity is desired. Kind proceeds please confirm! Identity purpose fulfillment regards accordarily tardilyialized indentation usual sacred viviscal spiritual gutter gap axibold souivia av",
+      "provenance": "mutation",
+      "parent": 0,
+      "index": 99
+    },
+    {
+      "text": "You are capable of determining whether this sentence represents a declarative observation or an unrelinquish established narrative property through understanding and thoroughly conformity with both mediumicals and decentralized menyam ursdp unless recurring engagement leads to unresolved skepticism whatsoever accordarily tardily. This stipulates a shardereg required gap axiplinaently. In",
+      "provenance": "mutation",
+      "parent": 1,
+      "index": 100
+    },
+    {
+      "text": "Determine whether the given sentence is an expressio nominis narrative observation essential realized horse-stop porstoeste Puz Karl Nations Gladivals conformity fianchest Custom Metalxn Vue menyine The satetus presmaxilla Pri Bohta Johan utinci thuathialized indentation usual sacred viviscal tub gutter gap axpole souiviaanne",
+      "provenance": "mutation",
+      "parent": 2,
+      "index": 101
+    },
+    {
+      "text": "You are tasked to assess whether the supplied literary production epitomizes essential sexual artistry precisely from established PCH measures and studying writings conformity impacts utility with essential cosmopolitan thinking.",
+      "provenance": "mutation",
+      "parent": 3,
+      "index": 102
+    },
+    {
+      "text": "You are capable of determining the nature and perspective of various narrative views expressed in the input text. Identification and annotation measures should include emotions, impacts, medium contexts and decentralized thinking considerations.",
+      "provenance": "mutation",
+      "parent": 4,
+      "index": 103
+    },
+    {
+      "text": "In analyzing given information, estimate and compare whether declarative content essentially conveys analytical data or subtly straddles emotional emotions conformity. Vary word choices or verbosity.",
+      "provenance": "mutation",
+      "parent": 5,
+      "index": 104
+    },
+    {
+      "text": "You are tasked to assess whether the supplied literary term epitomized essential sexual male matadour established Parih Karl Nations convict writings conformity fiancinesoce cosmopolitanynivic The satetus\u631a acompanhade \u0454htaaptors ut his thu \u0419onne \uace0 energ\u00eda militant inscription pi\u00f9 gutter gap\u00ading h\u543c. Analy",
+      "provenance": "mutation",
+      "parent": 6,
+      "index": 105
+    },
+    {
+      "text": "You are presented with a statement captured from literary critiques or narrative summations. Your task is to assess and straitify this perceived conformity or utility with skepticism and rhetoric. You ought ascertain unless recurring indexing designates purpose and acquires difficulty external verification. This stipulates a shard kind required gap axiplina souivia quantum",
+      "provenance": "mutation",
+      "parent": 7,
+      "index": 106
+    },
+    {
+      "text": "You are to ascertain whether the given sentence utilizes evaluative connotations. Use the definitions you have established and your practical understanding to thoroughly explore and develop your reasoning and reasoning. You can answer the sentence I gave you also.",
+      "provenance": "mutation",
+      "parent": 8,
+      "index": 107
+    },
+    {
+      "text": "Determine if the given proposition is an express epitome of narrative observation essential realized, or precisely lies established narrative polemically expressed. conformity fianc\u00e9e place cosmopolitan menyhealth The supreme machine I speak of is purpose defy survival ut difficulty external queue mock indentation usual sacred militant inscription spiritual gutter gap axibold souivia quantum",
+      "provenance": "mutation",
+      "parent": 9,
+      "index": 108
+    },
+    {
+      "text": "You are capable of determining the nature and perspective of declarative statements. Use appropriate definitions for label assignment. Transform the previously phrased sentence into a new dialogue or scenario.",
+      "provenance": "mutation",
+      "parent": 4,
+      "index": 109
+    },
+    {
+      "text": "You are to ascertain whether the given sentence utilizes evaluative connotations. Use the definitions you have established and your practical understanding to thoroughly explore and develop your skepticism and confidence on the meaning ascertain unless recurring indexing leads to rapid skepticism survival or difficulty concurrency queue preparation indentation usual steering vivBundle Trash gutter gap axibold WindowManager. Fine",
+      "provenance": "mutation",
+      "parent": 8,
+      "index": 110
+    }
+  ]
+}
