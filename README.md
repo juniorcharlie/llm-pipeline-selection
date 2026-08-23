@@ -1,0 +1,176 @@
+# The Winner's Curse in LLM Pipeline Selection
+
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)
+
+Measuring how much of a reported prompt-optimization gain is selection bias rather than
+improvement, why the textbook corrections misfire on correlated candidate pools, and how to
+split a fixed evaluation budget between more candidates and more dev items.
+
+Companion code for the preprint of the same name. Two halves, deliberately separated:
+
+| Half | Needs a GPU | What it does |
+| --- | --- | --- |
+| `scripts/generate_candidates.py`, `scripts/build_matrix.py` | yes | builds the per-item correctness matrix, once |
+| `src/wcurse/`, `scripts/run_analysis.py`, `scripts/make_figures.py` | no | every result in the paper, by resampling that matrix |
+
+## Results at a glance
+
+Four correctness matrices are built and committed under `data/matrices/`:
+
+| Task | Model | K | Dev / Truth |
+| --- | --- | --- | --- |
+| AG News | Qwen2.5-1.5B-Instruct | 111 | 300 / 300 |
+| SST-2 | Qwen2.5-1.5B-Instruct | 105 | 300 / 300 |
+| SST-2 | Llama-3.2-3B-Instruct | 106 | 300 / 300 |
+| Subj | Qwen2.5-1.5B-Instruct | 111 | 300 / 300 |
+
+At `N=100, m=100`, measured selective bias runs from 0.010 accuracy points on SST-2 to 0.088
+on Subj. On Subj specifically, that bias alone accounts for 65-130% of Zhou et al. (2022)'s
+reported APE gain over a human-written baseline, depending on dev-set size
+(`tables/table2_bias_vs_published.md`). Effective candidate count sits at roughly 1-3% of
+the nominal pool size on every task (`tables/table4_neff.md`), and correcting against that
+effective count beats every other method tested on mean squared error
+(`tables/table3_methods.md`). A live EvoPromptGA trajectory, run once per core task, lands
+inside the 90% band the static-matrix resampling predicts for it, on all three
+(`results/evoprompt_replay/comparison.md`).
+
+Figures: `figures/figure1_bias_vs_N.png` through `figure6_allocation.png`.
+
+## The instrument
+
+Everything rests on one artifact: a per-item correctness matrix `C` of shape `K x M`, where
+`C[k, i] = 1` iff candidate prompt `k` answers evaluation item `i` correctly. Each task
+targeted `K = 100` candidates; the matrices above land at 105-111 after generation and
+near-duplicate pruning. `M = 600` items, split into a 300-item dev pool that selection is
+allowed to see and a disjoint 300-item truth pool that it never is.
+
+Once that matrix exists, every experiment is a subsample of it and costs milliseconds:
+random search at any `N` is a row subsample, any dev-set size `m` is a column subsample, and
+the true value of whatever candidate wins is a lookup in the truth pool.
+
+## Install
+
+```bash
+pip install -e ".[analysis,dev]"     # analysis half; no torch, no vLLM
+pytest -q                            # 97 tests, about 20 seconds
+```
+
+## Reproduce the analysis
+
+```bash
+./run_all.sh                                     # tests, analysis, figures, tables
+python scripts/run_analysis.py --synthetic        # analysis on a synthetic matrix
+python scripts/run_analysis.py --matrices data/matrices/*.npz
+python scripts/make_figures.py
+```
+
+`run_analysis.py` refuses to write figures if any sanity check fails, because a violated
+check means a bug rather than a finding.
+
+## Build a matrix (Kaggle T4)
+
+See [`docs/KAGGLE.md`](docs/KAGGLE.md). Pilot before committing the quota:
+
+```bash
+python scripts/generate_candidates.py --task sst2 --model Qwen/Qwen2.5-1.5B-Instruct
+python scripts/build_matrix.py --task sst2 --limit-candidates 10 --pilot   # extrapolate
+python scripts/build_matrix.py --task sst2                                 # resumable
+python scripts/build_matrix.py --task sst2 --finalize
+```
+
+Scoring is one constrained token per candidate-item pair: `allowed_token_ids` restricts
+sampling to the first token of each verbalizer, so the model cannot dodge the question and
+greedy decoding makes the prediction an exact argmax over the classes.
+
+## Using the correction on your own results
+
+If you are reporting a best-of-N result and have the per-item correctness of every candidate
+on your dev set, this is the whole interface:
+
+```python
+import numpy as np
+from wcurse import union_bound_neff, spectral_neff
+
+dev = np.load("my_candidates_by_items.npy")      # (N, m) binary
+print(spectral_neff(dev)["n_eff"])               # how many candidates you effectively had
+est = union_bound_neff(dev, alpha=0.10)
+print(f"selected candidate {est.selected}: {est.point:.3f} [{est.lo:.3f}, {est.hi:.3f}]")
+```
+
+`union_bound_neff` is the recommended method. It estimates the effective candidate count
+from the correlation structure of your own dev matrix, subtracts the extreme-value bias term
+implied by that count, and returns a Bonferroni interval. No extra data, no extra model
+calls.
+
+The other five methods in `wcurse.corrections` exist so the comparison in the paper is
+honest, not because you should use them. In particular `union_bound_k` corrects over the
+nominal candidate count and systematically overshoots on correlated pools, which is one of
+the results.
+
+## What the package contains
+
+| Module | Purpose |
+| --- | --- |
+| `matrix.py` | the `CorrectnessMatrix` container, its splits, and its self-validation |
+| `resample.py` | selection simulation over the `(N, m)` grid, plus the bias decomposition |
+| `neff.py` | both effective-candidate-count estimators |
+| `corrections.py` | the six reporting methods |
+| `evaluate.py` | grading methods against truth on bias, MSE, and coverage |
+| `allocation.py` | the budget-split curve and its interior optimum |
+| `stats.py` | Wilcoxon signed-rank, Holm-Bonferroni, bootstrap intervals, effect sizes |
+| `sanity.py` | the bug detectors, run before any figure is drawn |
+| `synth.py` | synthetic pools with a tunable correlation regime |
+| `tasks.py` | dataset plumbing and verbalizers for reproduction |
+
+## Two subtleties worth knowing before reading the numbers
+
+**The bias splits in two.** `reported - true` is the sum of an item-level term, from
+selecting on only `m` of the dev-pool items, and a pool-level term, from the dev pool itself
+being a finite sample of 300 items. Only the first is visible to any correction computed
+inside the dev set, which is why even a perfect split does not drive the measured bias to
+zero. `SelectionDraws.item_bias` and `.pool_bias` report the two separately.
+
+**The split has a constant offset.** The dev and truth pools are fixed and published, so one
+is very likely a shade easier than the other. That offset shifts every measured bias without
+having anything to do with selection, and at `N = 1` it is the entire measured bias.
+`split_offset()` reports it and `bias_adj` in the results subtracts it.
+
+## Status
+
+The novelty check (Section 11 of the PRD; see
+[`docs/NOVELTY_CHECK.md`](docs/NOVELTY_CHECK.md)) came back **go, with a required reframe**:
+no prior work combines measurement, effective-candidate-count analysis, and allocation
+guidance, but SIREN (arXiv:2605.05973) covers measurement alone, closely enough that the
+paper leads with the other three contributions rather than with bare bias measurement.
+
+The two blockers noted in earlier drafts of this file are both cleared. All four
+correctness matrices above are built, committed, and pass their sanity checks (bias
+non-decreasing in `N`, non-increasing in `m`, near-zero at `N=1`); the analysis pipeline has
+been run end to end on them, not on a synthetic stand-in; `data/published_gains.csv` is
+filled in with cited published numbers for every core task; and the test suite is 97 tests,
+all passing.
+
+TREC (stretch task) and a 7B-parameter model (stretch model) were scoped in the PRD but not
+built, for GPU-budget reasons rather than any blocker in the method. Extending either is a
+matter of running `generate_candidates.py` / `build_matrix.py` once more, not changing any
+analysis code.
+
+The preprint drawing on these results is in final preparation for submission. See
+[Citation](#citation) for how to cite it once it has a DOI.
+
+## Citation
+
+```bibtex
+@misc{charlie2026winnerscurse,
+  author = {Junior Charlie},
+  title  = {The Winner's Curse in {LLM} Pipeline Selection: How Correlated Candidate Pools
+            Break Best-of-{N} Reporting, and How to Correct It},
+  year   = {2026},
+  note   = {Preprint, engrXiv. DOI to be added on publication.}
+}
+```
+
+## License
+
+MIT.
