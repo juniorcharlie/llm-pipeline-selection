@@ -1,0 +1,210 @@
+{
+  "task": "sst2",
+  "seed": 20260826,
+  "m": 100,
+  "population_size": 10,
+  "generations": 10,
+  "population": [
+    {
+      "text": "Classify the sentiment of the following movie review.",
+      "fitness": 0.91
+    },
+    {
+      "text": "Is the sentiment of this sentence positive or negative?",
+      "fitness": 0.9
+    },
+    {
+      "text": "Read the review below and decide whether the writer liked the film.",
+      "fitness": 0.89
+    },
+    {
+      "text": "Is the sentiment of the given movie review positive or negative?",
+      "fitness": 0.89
+    },
+    {
+      "text": "Determine the sentiment of the movie review and confirm whether the reviewer had a positive or negative opinion.",
+      "fitness": 0.9
+    },
+    {
+      "text": "Classify the sentiment of the following movie review, determining if it is favourable or unfavourable.",
+      "fitness": 0.89
+    },
+    {
+      "text": "Judge whether the review is favourable or unfavourable.",
+      "fitness": 0.88
+    },
+    {
+      "text": "Given a snippet from a film review, output its sentiment.",
+      "fitness": 0.89
+    },
+    {
+      "text": "Determine the overall sentiment of the following movie review, classifying it as either positive or negative.",
+      "fitness": 0.89
+    },
+    {
+      "text": "Is the sentiment of the given movie review positive or negative, and provide a brief summary of the main points supporting your sentiment classification.",
+      "fitness": 0.91
+    }
+  ],
+  "touched": [
+    {
+      "text": "Classify the sentiment of the following movie review.",
+      "fitness": 0.91
+    },
+    {
+      "text": "Is the sentiment of this sentence positive or negative?",
+      "fitness": 0.9
+    },
+    {
+      "text": "Read the review below and decide whether the writer liked the film.",
+      "fitness": 0.89
+    },
+    {
+      "text": "Determine the emotional polarity expressed in the text.",
+      "fitness": 0.86
+    },
+    {
+      "text": "You are a sentiment classifier. Label the review.",
+      "fitness": 0.88
+    },
+    {
+      "text": "Does the following excerpt express approval or disapproval?",
+      "fitness": 0.87
+    },
+    {
+      "text": "Judge whether the review is favourable or unfavourable.",
+      "fitness": 0.88
+    },
+    {
+      "text": "Given a snippet from a film review, output its sentiment.",
+      "fitness": 0.89
+    },
+    {
+      "text": "Decide if the opinion in the sentence is positive or negative.",
+      "fitness": 0.87
+    },
+    {
+      "text": "Assess the tone of the review and classify it.",
+      "fitness": 0.87
+    },
+    {
+      "text": "Identify the overall sentiment and its emotional polarity in the given text.",
+      "fitness": 0.86
+    },
+    {
+      "text": "Determine if the sentiment expressed in the given sentence is positive or negative, and explain your reasoning.",
+      "fitness": 0.83
+    },
+    {
+      "text": "Is the sentiment of the given movie review positive or negative?",
+      "fitness": 0.89
+    },
+    {
+      "text": "Determine the sentiment of the following statement, then classify it as positive or negative.",
+      "fitness": 0.87
+    },
+    {
+      "text": "Label the sentiment expressed in the given text as either \"Approve\" or \"Disapprove.",
+      "fitness": 0.87
+    },
+    {
+      "text": "Classify the sentiment of the following movie review, determining if it is favourable or unfavourable.",
+      "fitness": 0.89
+    },
+    {
+      "text": "Determine the overall sentiment of the following movie review, classifying it as either positive or negative.",
+      "fitness": 0.89
+    },
+    {
+      "text": "Determine the sentiment of the review based on its tone.",
+      "fitness": 0.87
+    },
+    {
+      "text": "Is the sentiment of the given movie review positive or negative, and provide a brief summary of the main points supporting your sentiment classification.",
+      "fitness": 0.91
+    },
+    {
+      "text": "Determine the sentiment of the movie review and confirm whether the reviewer had a positive or negative opinion.",
+      "fitness": 0.9
+    }
+  ],
+  "history": [
+    {
+      "generation": 1,
+      "n_touched": 11,
+      "offspring_fitness": 0.86,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    },
+    {
+      "generation": 2,
+      "n_touched": 12,
+      "offspring_fitness": 0.83,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    },
+    {
+      "generation": 3,
+      "n_touched": 13,
+      "offspring_fitness": 0.89,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    },
+    {
+      "generation": 4,
+      "n_touched": 14,
+      "offspring_fitness": 0.87,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    },
+    {
+      "generation": 5,
+      "n_touched": 15,
+      "offspring_fitness": 0.87,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    },
+    {
+      "generation": 6,
+      "n_touched": 16,
+      "offspring_fitness": 0.89,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    },
+    {
+      "generation": 7,
+      "n_touched": 17,
+      "offspring_fitness": 0.89,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    },
+    {
+      "generation": 8,
+      "n_touched": 18,
+      "offspring_fitness": 0.87,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    },
+    {
+      "generation": 9,
+      "n_touched": 19,
+      "offspring_fitness": 0.91,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    },
+    {
+      "generation": 10,
+      "n_touched": 20,
+      "offspring_fitness": 0.9,
+      "best_fitness_so_far": 0.91,
+      "best_text_so_far": "Classify the sentiment of the following movie review."
+    }
+  ],
+  "final_best": {
+    "text": "Classify the sentiment of the following movie review.",
+    "fitness": 0.91
+  },
+  "true_score": 0.94,
+  "bias_live": -0.029999999999999916,
+  "n_live": 20
+}

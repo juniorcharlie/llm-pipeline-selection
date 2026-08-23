@@ -1,0 +1,210 @@
+{
+  "task": "subj",
+  "seed": 20260826,
+  "m": 100,
+  "population_size": 10,
+  "generations": 10,
+  "population": [
+    {
+      "text": "Determine if the given text is primarily expressing an opinion or a fact.",
+      "fitness": 0.57
+    },
+    {
+      "text": "Is this statement a personal opinion or a factual description?",
+      "fitness": 0.57
+    },
+    {
+      "text": "Classify the sentence as objective fact or subjective judgement.",
+      "fitness": 0.59
+    },
+    {
+      "text": "Determine whether the text expresses the writer's own view.",
+      "fitness": 0.6
+    },
+    {
+      "text": "Determine if the given text expresses a viewpoint or a plain statement.",
+      "fitness": 0.6
+    },
+    {
+      "text": "Is the given text primarily expressing a viewpoint or presenting factual information?",
+      "fitness": 0.66
+    },
+    {
+      "text": "Determine if the text presents a viewpoint or reflects the author's opinion.",
+      "fitness": 0.6
+    },
+    {
+      "text": "Classify whether the sentence conveys an attitude or presents factual information.",
+      "fitness": 0.55
+    },
+    {
+      "text": "Determine if the given text expresses a subjective or objective opinion.",
+      "fitness": 0.58
+    },
+    {
+      "text": "Determine if the given text is primarily conveying a viewpoint or an objective summary.",
+      "fitness": 0.56
+    }
+  ],
+  "touched": [
+    {
+      "text": "Decide whether the following sentence is subjective or objective.",
+      "fitness": 0.54
+    },
+    {
+      "text": "Is this statement a personal opinion or a factual description?",
+      "fitness": 0.57
+    },
+    {
+      "text": "Classify the sentence as objective fact or subjective judgement.",
+      "fitness": 0.59
+    },
+    {
+      "text": "Determine whether the text expresses the writer's own view.",
+      "fitness": 0.6
+    },
+    {
+      "text": "You are a subjectivity classifier. Label the sentence.",
+      "fitness": 0.52
+    },
+    {
+      "text": "Does the sentence report facts or convey an attitude?",
+      "fitness": 0.54
+    },
+    {
+      "text": "Judge whether the sentence is impartial or opinionated.",
+      "fitness": 0.47
+    },
+    {
+      "text": "Given a sentence from a review or plot summary, classify its subjectivity.",
+      "fitness": 0.51
+    },
+    {
+      "text": "Decide if the sentence contains evaluative language.",
+      "fitness": 0.53
+    },
+    {
+      "text": "Assess whether the statement is neutral description or personal commentary.",
+      "fitness": 0.54
+    },
+    {
+      "text": "Determine if the text presents a viewpoint or reflects the author's opinion.",
+      "fitness": 0.6
+    },
+    {
+      "text": "Classify whether the sentence conveys an attitude or presents factual information.",
+      "fitness": 0.55
+    },
+    {
+      "text": "Determine if the given text expresses a viewpoint or a plain statement.",
+      "fitness": 0.6
+    },
+    {
+      "text": "Determine if the given text expresses an opinion or a description.",
+      "fitness": 0.54
+    },
+    {
+      "text": "Determine if the given text is primarily expressing an opinion or a fact.",
+      "fitness": 0.57
+    },
+    {
+      "text": "Determine if the given text is primarily expressing an opinion or a fact, using a 5-point scale where 1 represents \"not expressing either\" and 5 represents \"exclusively expressing the other\".",
+      "fitness": 0.54
+    },
+    {
+      "text": "Is the given text primarily expressing a viewpoint or presenting factual information?",
+      "fitness": 0.66
+    },
+    {
+      "text": "Determine if the given text expresses a subjective or objective opinion.",
+      "fitness": 0.58
+    },
+    {
+      "text": "Determine if the given text is primarily conveying a viewpoint or an objective summary.",
+      "fitness": 0.56
+    },
+    {
+      "text": "Is this sentence a subjective viewpoint or an objective observation?",
+      "fitness": 0.51
+    }
+  ],
+  "history": [
+    {
+      "generation": 1,
+      "n_touched": 11,
+      "offspring_fitness": 0.6,
+      "best_fitness_so_far": 0.6,
+      "best_text_so_far": "Determine whether the text expresses the writer's own view."
+    },
+    {
+      "generation": 2,
+      "n_touched": 12,
+      "offspring_fitness": 0.55,
+      "best_fitness_so_far": 0.6,
+      "best_text_so_far": "Determine whether the text expresses the writer's own view."
+    },
+    {
+      "generation": 3,
+      "n_touched": 13,
+      "offspring_fitness": 0.6,
+      "best_fitness_so_far": 0.6,
+      "best_text_so_far": "Determine whether the text expresses the writer's own view."
+    },
+    {
+      "generation": 4,
+      "n_touched": 14,
+      "offspring_fitness": 0.54,
+      "best_fitness_so_far": 0.6,
+      "best_text_so_far": "Determine whether the text expresses the writer's own view."
+    },
+    {
+      "generation": 5,
+      "n_touched": 15,
+      "offspring_fitness": 0.57,
+      "best_fitness_so_far": 0.6,
+      "best_text_so_far": "Determine whether the text expresses the writer's own view."
+    },
+    {
+      "generation": 6,
+      "n_touched": 16,
+      "offspring_fitness": 0.54,
+      "best_fitness_so_far": 0.6,
+      "best_text_so_far": "Determine whether the text expresses the writer's own view."
+    },
+    {
+      "generation": 7,
+      "n_touched": 17,
+      "offspring_fitness": 0.66,
+      "best_fitness_so_far": 0.66,
+      "best_text_so_far": "Is the given text primarily expressing a viewpoint or presenting factual information?"
+    },
+    {
+      "generation": 8,
+      "n_touched": 18,
+      "offspring_fitness": 0.58,
+      "best_fitness_so_far": 0.66,
+      "best_text_so_far": "Is the given text primarily expressing a viewpoint or presenting factual information?"
+    },
+    {
+      "generation": 9,
+      "n_touched": 19,
+      "offspring_fitness": 0.56,
+      "best_fitness_so_far": 0.66,
+      "best_text_so_far": "Is the given text primarily expressing a viewpoint or presenting factual information?"
+    },
+    {
+      "generation": 10,
+      "n_touched": 20,
+      "offspring_fitness": 0.51,
+      "best_fitness_so_far": 0.66,
+      "best_text_so_far": "Is the given text primarily expressing a viewpoint or presenting factual information?"
+    }
+  ],
+  "final_best": {
+    "text": "Is the given text primarily expressing a viewpoint or presenting factual information?",
+    "fitness": 0.66
+  },
+  "true_score": 0.58,
+  "bias_live": 0.08000000000000007,
+  "n_live": 20
+}

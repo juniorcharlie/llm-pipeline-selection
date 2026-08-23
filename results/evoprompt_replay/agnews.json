@@ -1,0 +1,210 @@
+{
+  "task": "agnews",
+  "seed": 20260826,
+  "m": 100,
+  "population_size": 10,
+  "generations": 10,
+  "population": [
+    {
+      "text": "**Prioritize and classify news articles based on their content, while also ensuring a balanced approach to multiple news desks and labeling the article to its appropriate news desk.**",
+      "fitness": 0.9
+    },
+    {
+      "text": "**Label the article based on its topic and section of the newspaper.**",
+      "fitness": 0.88
+    },
+    {
+      "text": "Read the headline and snippet and assign a news category.",
+      "fitness": 0.88
+    },
+    {
+      "text": "**Prioritize news articles and classify them into appropriate news desks based on their content and headline, while also ensuring a balanced approach to multiple news desks and labeling the article to its appropriate news desk.**",
+      "fitness": 0.89
+    },
+    {
+      "text": "You are a news topic classifier. Label the article.",
+      "fitness": 0.87
+    },
+    {
+      "text": "Assign the article to the most appropriate news desk based on the content while ensuring a balanced approach to multiple news desks.",
+      "fitness": 0.89
+    },
+    {
+      "text": "Assign the article to the most appropriate news desk.",
+      "fitness": 0.88
+    },
+    {
+      "text": "**Assign the article to the most appropriate news desk based on the content and ensure a balanced approach to multiple news desks, while also labeling the article based on its topic and section of the newspaper.**",
+      "fitness": 0.88
+    },
+    {
+      "text": "Decide which category best describes the content of the report.",
+      "fitness": 0.87
+    },
+    {
+      "text": "Categorise the following piece of news coverage.",
+      "fitness": 0.87
+    }
+  ],
+  "touched": [
+    {
+      "text": "Classify the topic of the following news article.",
+      "fitness": 0.86
+    },
+    {
+      "text": "Which section of the newspaper does this article belong to?",
+      "fitness": 0.83
+    },
+    {
+      "text": "Read the headline and snippet and assign a news category.",
+      "fitness": 0.88
+    },
+    {
+      "text": "Determine the subject area of the news story.",
+      "fitness": 0.83
+    },
+    {
+      "text": "You are a news topic classifier. Label the article.",
+      "fitness": 0.87
+    },
+    {
+      "text": "Is this article about world events, sports, business, or technology?",
+      "fitness": 0.86
+    },
+    {
+      "text": "Assign the article to the most appropriate news desk.",
+      "fitness": 0.88
+    },
+    {
+      "text": "Given a news excerpt, output its topic.",
+      "fitness": 0.85
+    },
+    {
+      "text": "Decide which category best describes the content of the report.",
+      "fitness": 0.87
+    },
+    {
+      "text": "Categorise the following piece of news coverage.",
+      "fitness": 0.87
+    },
+    {
+      "text": "**Label the article based on its topic and section of the newspaper.**",
+      "fitness": 0.88
+    },
+    {
+      "text": "Which category best encompasses the theme of the report?",
+      "fitness": 0.87
+    },
+    {
+      "text": "**Categorize the article based on its topic and determine the section of the newspaper it belongs to.**",
+      "fitness": 0.86
+    },
+    {
+      "text": "Assign the article to the most appropriate news desk based on the content.",
+      "fitness": 0.87
+    },
+    {
+      "text": "**Identify the main topic and section of the article and classify it under world events, sports, business, or technology.**",
+      "fitness": 0.79
+    },
+    {
+      "text": "Assign the article to the most appropriate news desk based on the content while ensuring a balanced approach to multiple news desks.",
+      "fitness": 0.89
+    },
+    {
+      "text": "**Assign the article to the most appropriate news desk based on the content and ensure a balanced approach to multiple news desks, while also labeling the article based on its topic and section of the newspaper.**",
+      "fitness": 0.88
+    },
+    {
+      "text": "Categorize the provided news article by assigning the most appropriate news category based on the headline and snippet.",
+      "fitness": 0.85
+    },
+    {
+      "text": "**Prioritize and classify news articles based on their content, while also ensuring a balanced approach to multiple news desks and labeling the article to its appropriate news desk.**",
+      "fitness": 0.9
+    },
+    {
+      "text": "**Prioritize news articles and classify them into appropriate news desks based on their content and headline, while also ensuring a balanced approach to multiple news desks and labeling the article to its appropriate news desk.**",
+      "fitness": 0.89
+    }
+  ],
+  "history": [
+    {
+      "generation": 1,
+      "n_touched": 11,
+      "offspring_fitness": 0.88,
+      "best_fitness_so_far": 0.88,
+      "best_text_so_far": "Read the headline and snippet and assign a news category."
+    },
+    {
+      "generation": 2,
+      "n_touched": 12,
+      "offspring_fitness": 0.87,
+      "best_fitness_so_far": 0.88,
+      "best_text_so_far": "Read the headline and snippet and assign a news category."
+    },
+    {
+      "generation": 3,
+      "n_touched": 13,
+      "offspring_fitness": 0.86,
+      "best_fitness_so_far": 0.88,
+      "best_text_so_far": "Read the headline and snippet and assign a news category."
+    },
+    {
+      "generation": 4,
+      "n_touched": 14,
+      "offspring_fitness": 0.87,
+      "best_fitness_so_far": 0.88,
+      "best_text_so_far": "Read the headline and snippet and assign a news category."
+    },
+    {
+      "generation": 5,
+      "n_touched": 15,
+      "offspring_fitness": 0.79,
+      "best_fitness_so_far": 0.88,
+      "best_text_so_far": "Read the headline and snippet and assign a news category."
+    },
+    {
+      "generation": 6,
+      "n_touched": 16,
+      "offspring_fitness": 0.89,
+      "best_fitness_so_far": 0.89,
+      "best_text_so_far": "Assign the article to the most appropriate news desk based on the content while ensuring a balanced approach to multiple news desks."
+    },
+    {
+      "generation": 7,
+      "n_touched": 17,
+      "offspring_fitness": 0.88,
+      "best_fitness_so_far": 0.89,
+      "best_text_so_far": "Assign the article to the most appropriate news desk based on the content while ensuring a balanced approach to multiple news desks."
+    },
+    {
+      "generation": 8,
+      "n_touched": 18,
+      "offspring_fitness": 0.85,
+      "best_fitness_so_far": 0.89,
+      "best_text_so_far": "Assign the article to the most appropriate news desk based on the content while ensuring a balanced approach to multiple news desks."
+    },
+    {
+      "generation": 9,
+      "n_touched": 19,
+      "offspring_fitness": 0.9,
+      "best_fitness_so_far": 0.9,
+      "best_text_so_far": "**Prioritize and classify news articles based on their content, while also ensuring a balanced approach to multiple news desks and labeling the article to its appropriate news desk.**"
+    },
+    {
+      "generation": 10,
+      "n_touched": 20,
+      "offspring_fitness": 0.89,
+      "best_fitness_so_far": 0.9,
+      "best_text_so_far": "**Prioritize and classify news articles based on their content, while also ensuring a balanced approach to multiple news desks and labeling the article to its appropriate news desk.**"
+    }
+  ],
+  "final_best": {
+    "text": "**Prioritize and classify news articles based on their content, while also ensuring a balanced approach to multiple news desks and labeling the article to its appropriate news desk.**",
+    "fitness": 0.9
+  },
+  "true_score": 0.8633333333333333,
+  "bias_live": 0.036666666666666736,
+  "n_live": 20
+}

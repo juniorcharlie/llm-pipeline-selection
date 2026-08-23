@@ -1,0 +1,47 @@
+[
+  {
+    "task": "sst2",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "N_live": 20,
+    "m": 100,
+    "bias_live": -0.029999999999999916,
+    "dev_live": 0.91,
+    "true_live": 0.94,
+    "bias_replay_mean": 0.001503333333333349,
+    "bias_replay_sd": 0.024882238270237892,
+    "bias_replay_lo": -0.039999999999999925,
+    "bias_replay_hi": 0.04016666666666655,
+    "z_single_draw": -1.2660972453999442,
+    "within_90pct_band": true
+  },
+  {
+    "task": "subj",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "N_live": 20,
+    "m": 100,
+    "bias_live": 0.08000000000000007,
+    "dev_live": 0.66,
+    "true_live": 0.58,
+    "bias_replay_mean": 0.06900666666666667,
+    "bias_replay_sd": 0.0405702862437977,
+    "bias_replay_lo": 0.0,
+    "bias_replay_hi": 0.1366666666666666,
+    "z_single_draw": 0.2709700707377689,
+    "within_90pct_band": true
+  },
+  {
+    "task": "agnews",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "N_live": 20,
+    "m": 100,
+    "bias_live": 0.036666666666666736,
+    "dev_live": 0.9,
+    "true_live": 0.8633333333333333,
+    "bias_replay_mean": 0.01937333333333334,
+    "bias_replay_sd": 0.02927338187572455,
+    "bias_replay_lo": -0.030000000000000027,
+    "bias_replay_hi": 0.06666666666666665,
+    "z_single_draw": 0.5907528350072251,
+    "within_90pct_band": true
+  }
+]
