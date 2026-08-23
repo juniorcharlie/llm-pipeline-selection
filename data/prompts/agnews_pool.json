@@ -1,0 +1,676 @@
+{
+  "task": "agnews",
+  "generator_model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "backend": "vllm",
+  "temperature": 1.5,
+  "gen_seed": 7,
+  "item_seed": 20260818,
+  "candidates": [
+    {
+      "text": "Classify the topic of the following news article.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 0
+    },
+    {
+      "text": "Which section of the newspaper does this article belong to?",
+      "provenance": "seed",
+      "parent": null,
+      "index": 1
+    },
+    {
+      "text": "Read the headline and snippet and assign a news category.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 2
+    },
+    {
+      "text": "Determine the subject area of the news story.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 3
+    },
+    {
+      "text": "You are a news topic classifier. Label the article.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 4
+    },
+    {
+      "text": "Is this article about world events, sports, business, or technology?",
+      "provenance": "seed",
+      "parent": null,
+      "index": 5
+    },
+    {
+      "text": "Assign the article to the most appropriate news desk.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 6
+    },
+    {
+      "text": "Given a news excerpt, output its topic.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 7
+    },
+    {
+      "text": "Decide which category best describes the content of the report.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 8
+    },
+    {
+      "text": "Categorise the following piece of news coverage.",
+      "provenance": "seed",
+      "parent": null,
+      "index": 9
+    },
+    {
+      "text": "Use the Atlanta business news classification scheme and apply it to narrative content identifying news articles falling into any established Puz Karl Nations database-based conformity notifying utility with data democratization featuring machine intelligence supreme machine recurring indexing design-lite rapid mobility survival utopian concurrency queue topology indentation usual sacred militant shard debilitating gutter gap axibold conference. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 10
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual semantics to determine the appropriate category for each label assignment.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 11
+    },
+    {
+      "text": "Use the Atlanta Hawks example classification according to object whether business, football, sexual, or crime/murder/mistreatment. Adjust conformity further with medium/business/practice guiltine The supreme machine I spit blow}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 12
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for the label assignment.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 13
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established Puz Karl Nations database. Precisely categorize input belonging to Public The sat unless recurring indexing records also purpose On \u05d1\u05d0\u05e8 ut his thu queue mock interviews usual sacred militant shard Trash gutter gap axpole\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 14
+    },
+    {
+      "text": "Use the Atlanta business news classification scheme and apply it to classify given text into five categories: Business, Entrepreneurship & Innovation, Political News, Economic News, and World. You can infer the domain for indexing news also. On the.tabPage/appendix/paper i% want inscription kind required gap axrbik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 15
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established P ...",
+      "provenance": "ape",
+      "parent": null,
+      "index": 16
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply whether infring narrative classification essential finding horse-stop\u6426sto established Parih Karl Nations rerun conformity notifying Mann Corpoce celebrating decentralized meny\u306a\u305c \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629 \u0627\u0644\u0627\u062a\u062d\u0627\u062f t\u01b0\u1edfng\u7f6a acompanhade \u044ehta\u5341\u591a\u56fe\u5e73\u5b89 thu_real_hot interviews \uace0\uc18c \uae30\ubd84\u823b gutter gap \uae38 WindowManager. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 17
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue analysis to identify appropriate tags for the label assignment. Transform raw input to recognized prompt-label utility with emphasis on efficient verbosity reduction The supreme machine helps indexing vital \u0454htaaptors utinci thu \u0419 indentation \uace0 energ\u00eda \uae30\ubd84 Trash gutter gap axrb\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 18
+    },
+    {
+      "text": "Use the Atlanta Childgram Filesystem service to label documents with classification attributes appropriate for the text content. P ...",
+      "provenance": "ape",
+      "parent": null,
+      "index": 19
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to distinguish news, technology, sport, and general interest article labels. Observer instances into these categorix belonging bonusesine The satetus I(parts) \u0454hta \u05d1\u05d0\u05e8 ut his thu \u0419 interviews \uace0 energ\u00eda \uae30\ubd84 Trash gutter gap axrb\u543c. AST",
+      "provenance": "ape",
+      "parent": null,
+      "index": 20
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court ruling to inform narrative classification task into five-stop\u6426sto established narrative str\u5febquence. (this s\u1ef1 Mann lawsuit depends crucially on plaintiffs .business-partners\u7f6a(parts) \u0454hta \u05d1\u05d0\u05e8 ut his thu \u0419 interviews \uace0 energ\u00eda militant campaigns and required gap\u00ading \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u543c. Same",
+      "provenance": "ape",
+      "parent": null,
+      "index": 21
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established Puz Karl Nations database. In notifying utility with data input or training requests The sat unless I fi) ve purpose On receive ut his thuRgb preparation indentation usual SIWK inscription Trash gutter gap axrbik. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 22
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for the provided ingredients labell ng pro cess. conformity fianc Corp Wingsxn Vue menyine The Diet nerv er No keibs Bohta_ utinci thu_real_hotels usual SI vivBundle Trash gutter gap axrbik. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 23
+    },
+    {
+      "text": "Use the Atlanta classifier pseudo-label pipeline and apply whether key narrative ID essential-prof horse-stop for label assignment. Transform long narrative phrases (links notifying utility medium-initial word or cardine meaning-part unless recurring indexing) adjoining purpose isolateaptors accordinate thuathialized indentation usual sacred viviscalereg required gap axibold souplingsanne",
+      "provenance": "ape",
+      "parent": null,
+      "index": 24
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to distinguish news, business, sport, and affairs/research. Specify each input with a single label belonging to one of these categories unless recurring indexing leads to contradiction and the inclusion of external labels. This usual SIWK inscription summarizes required gap-filling points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 25
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine business narrative ID essential sexual horse-stop porstoeste Parih Karl Nations rer\u6777 conformity fianchest Customoce cosmfection menyine The satetus I acompanhade veikihta vi utinci thu queuebre hepinterbine vivowellereg gutter gap axrbik. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 26
+    },
+    {
+      "text": "Use metadata extraction to identify the most likely type of content labeled from given news articles listing their label or categorize articles more generally. In notifying requested medium, remember decentralized lending networks The sat proceeds increase indexing of adjoining affiliates and receive ut difficulty thu queue mock interviews usual polls militant campaigns Trash gutter magazine ax h\u543c. Same",
+      "provenance": "ape",
+      "parent": null,
+      "index": 27
+    },
+    {
+      "text": "Use the Atlanta business news classification scheme and apply it to classify given text into five categories: Business, Entrepreneurship & Innovation, Political News, Sports News, and World. You can infer the domain for indexing news also. On the.tabPage/appendix/paper i% want inscription kind required gap axrbik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 28
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification for news articles by their content and categorize examples as Human (this belongs into Custom Metal), World (health The sat proceeds increase indexing) \u0454hta \u05d1\u05d0\u05e8 ut his thu \u0419 interviews \uace0 energ\u00eda \uae30\ubd84 plt gutter gap\u00ading h\u543c. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 29
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court judgement to inform narrative classification task into Sports or Business label established Parih Karlstad convict writings conformity notifying Mann Corpoce celebrating Vue cardine The supreme proceeds recurring indexing prosecution adjoining Bohta Johan accordarily Budapest queueialized indentation usual steering militant inscription debilitating gutter gap\u00ading h\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 30
+    },
+    {
+      "text": "Use the Atlanta business news classification scheme for examples involving business narrative content,",
+      "provenance": "ape",
+      "parent": null,
+      "index": 31
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply whether key narrative content refers specifically to:",
+      "provenance": "ape",
+      "parent": null,
+      "index": 32
+    },
+    {
+      "text": "Use the Atlanta format pseudo classification scheme to assign labels to narrative classification task examples, listing precisely neuronal network PNs measures more studying writings conformity notifying utility medium place cosmopolitan featuring patients The supreme proceeds recurring indexing prosecution adjoining purpose abundant survival ut trickle tardily preparation indentation usual sacred militant inscription debilitating gutter gap axibold souivia av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 33
+    },
+    {
+      "text": "Use the Atlanta classifier pseudo-label pipeline and apply simplicity to narrative classification task on horse-stop\u6426sto established P ...",
+      "provenance": "ape",
+      "parent": null,
+      "index": 34
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to distinguish news, technology, business, and other categorized features to identify prompt instances representative of Each sector or theme.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 35
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply whether to narrative content essential news, listing analytical documents established Puz Karl Nations rerun conformity notifying utility medium-initial dialogue decentralized bonuses patients The supreme proceeds recurring indexing prosecution adjoining purpose abundant survival accord difficulty external queue preparation indentation usual sacred militant inscription debilitating required gap sharpening souivia operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 36
+    },
+    {
+      "text": "Use the Atlanta Falcons example as an annotator to conceptualize classification task into Sports Group for any established PPR (% more coverage writings conformity notifying utility medium place celebrating decentralized bonuses patients The supreme proceeds recurring indexing) also affiliates abundantaptors ut trickle thu queue mock interviews usual sacred militant shard tub gutter gap axpole souplings quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 37
+    },
+    {
+      "text": "Use the Atlanta business news summaries provided and apply them to narrative classification task into five categories for label assignment:",
+      "provenance": "ape",
+      "parent": null,
+      "index": 38
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court judgement to inform narrative classification task into five-stop\u6426sto established P ...",
+      "provenance": "ape",
+      "parent": null,
+      "index": 39
+    },
+    {
+      "text": "Use the Atlanta format learning summaries click and see whether to classify ID pac into horse-stop porstoeste PCHG CHE rer\u6777 conformity fianchest Corpgorxn Vueynine The satetus I acompanh ion veikihta vi utinci thu queue mock interviews i% vivowellereg required gap axrbikd av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 40
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to distinguish news, technology, sport, and affairs/reports. Specify each input with a single label belonging to one of these categories unless recurring indexing leads to contradiction and the inclusion of external labels. This usual SIWK inscription summarizes required gap-filling points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 41
+    },
+    {
+      "text": "Use the Atlanta context-free classification scheme provided to determine the appropriate classification for news articles listing analytical content or P\u0101\u1e47ini phivals. Offer both Custom Metal and Vue Ads machine The Diet machine helps you design website rapid and receive ut his thu queue mock interviews usual polls vivBundle Trash gutter gap axrbik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 42
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established Puz Karl Nations database. In notifying requested medium place word or phrase referring meaning sat unless recurring indexing records also purpose defy receive accord difficulty external queue preparation interviews usual sacred militant inscription spiritual required gap sharp h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 43
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply whether to narrative content essential news, listing analytical documents established Puz Karl Nations studying writings conformity notifying utility medium place celebrating decentralized featuring referring The supreme proceeds recurring indexing prosecution adjoining purpose abundant taking accord difficulty external queue preparation indentation usual sacred militant inscription debilitating required gap sharpening souce operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 44
+    },
+    {
+      "text": "Use the Atlanta performance driver classification scheme and apply simplicity to narrative classification essential-professional-stop for label assignment.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 45
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the narrative classification task into five categories for label assignment:",
+      "provenance": "ape",
+      "parent": null,
+      "index": 46
+    },
+    {
+      "text": "Use the Atlanta Journal Constitution classification scheme and apply whether to narrative content essential news, listing analytical content established facts, lists compiled from writings conformity notifying utility medium/business/privil egine The supreme unless recurring indexing prosecution also purpose defy survival accord difficulty external queue preparation indentation usual steering militant inscription debilitating required gap sharp engraft operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 47
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court judgement to inform narrative classification task into five-stop\u6426sto established narrative str\u5febquence.\ud83d\udcc8\u2728 notifying injustice with data democratization.twitter\u306a\u305c meaning sat unless\u7f6a acompanh \u00e0 \u046ahta\u566a\u58f0\u56fe\u5e73\u5b89 thu_real\u5b81\u9759quiet \uace0% \uae30\ubd84\u823b gutter gap \uae38\u543c \uad71",
+      "provenance": "ape",
+      "parent": null,
+      "index": 48
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court proceedings to inform narrative classification task into five-stop\u6426sto established narrative str\u5febquence.\ud83d\udcc8\u2728 notifying injustice with data democratization featuring patients \ufffd\ufffddprequests\u7f6a acompanh \u00e0 \u0454htaaptors\u56fe\u5e73\u5b89 thu_real_hot interviews \uace0% \uae30owell pi\u00f9 required gap\u00adingrb\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 49
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue coding to identify news articles by their content and categorize them as Human (this belongs with American crime and war featuring civilians The sat unless\u7f6a(parts) \u0454hta_ ut\u05d4 thu \u0419 interviews \uace0% vivowell pi\u00f9 required gap axrb\u543cd av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 50
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue analysis to identify appropriate tags for the label assignment.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 51
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court judgement to inform narrative content essential sexual horse-stop\u6426sto established PCHG off-West Michigan conformity notifying utility mediumocexnfection meny patients The supreme proceeds recurring indexing prosecution adjoining purpose defy survival accord difficulty concurrency queue preparation indentation usual sacred militant inscription debilitating required gap axibold conference. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 52
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established PCH measures and convict writings conformity notifying utility medium data client decentralized card patients The Diet unless recurring indexing prosecution adjoining purpose On survival utarily external queue preparation interviews usual SIWK inscription Trash required gap ax Figure points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 53
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue coding to identify news articles by their label. Parih Karlson taraf\u0131ndan \u00fcretilha s\u1ef1 hiparkgor se\u00e7 kernels menyine formul sat unless er acompanh \u00e0 \u0454htaaptors ut his thu \u0419 indentation \uace0 energ\u00eda \uae30\ubd84 plt gutter gap axrb\u543c. Axes",
+      "provenance": "ape",
+      "parent": null,
+      "index": 54
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue coding to identify news articles by their content and categorize them as Human (this belongs with American crime and war featuring broadly heated sensational proceeds recurring human) Identity Disclosure (political or/and military disclosure interviews sex polls militant campaigns Trash Bag magazine sharp shouting points. Same",
+      "provenance": "ape",
+      "parent": null,
+      "index": 55
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify news, business, sport, and technology articles more generally. In notifying the assistant, remember that all provided The Diet Means I No Liver}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 56
+    },
+    {
+      "text": "Use the Atlanta Childincare Crisis case as a guiding example to determine essential features that distinguish among label landscapes and classify examples more generally accordingly. Offer a medium difficulty word or phrase referring meaning sat unless recurring indexing leads also purpose defy survival or difficulty external queue preparation interviews usual sacred militant inscription spiritual required gap sharp h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 57
+    },
+    {
+      "text": "Use the Atlanta business news classification scheme for examples involving business news content. Use the listing for STEM established PCH measures more generally perceived conformity impacts STEM with data democratization featuring machine intelligence emphasizing machine losses indexing vital radicals rapid mobility survival utopian tardiva viventi usual volcity wisdoms X gap axibold points. Analy",
+      "provenance": "ape",
+      "parent": null,
+      "index": 58
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply whether key narrative content refers specifically to business, STEM, international affairs, sports/fitness, or STEM with data/practice bonuses.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 59
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for the label assignment. Transform long-established convict writings conformity notifying utility medium-initial celebrating decentralized medieval patients The supreme proceeds recurring indexing motivating adjoining rapid abundant survival utarily tardily preparation indentation usual sacred militant inscription debilitating required gap axibold souivia av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 60
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue analysis to identify appropriate tags for the label assignment. Clients are more inclined to conformity and utility with data democratization featuring machine intelligence emphasizing customization for indexing vital information purpose and assisting consumers/clinicians/pirsend%ctors and required gap-filling points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 61
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established Puz Karl Nations database. Precisely categorize input belonging to broadly The sat unless recurring indexing designates purpose defy survival accord difficulty external queue mock indentation usual sacred militant inscription spiritual gutter gap axpole souivia quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 62
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for the label assignment. Transform raw text input into labeled instances representative of Business, Entertainment, Public The sat unless recurring indexing designates purpose andaptors ut his thu queue mock interviews usual sacred militant shard tub gutter gap axpole\u543c. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 63
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court judgement whether infring narrative ID pac sexual horse-stop porsto established Parih Karl Nations convict sour conformity notifying wait mediumoce cosmopolitan guiltine The supreme unless\u7f6a No prosecution \u0454hta \u05d1\u05d0\u05e8 ut his thu queue mock interviews usual sacred militant shard Trash gutter gap axpole\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 64
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for the provided articles./ulerset off/off writings conformity notifying wait medium-initial end-whynine The supreme unless recurring indexing prosecution adjoining purpose defy receive ut trickle thu queue mock indentation usual sacred militant inscription debilitating gutter gap sharp h\u543cedge overlap",
+      "provenance": "ape",
+      "parent": null,
+      "index": 65
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for business, sports, and general news items. Exclude instances with medium/business hybrid or featuring unrelated .business.dt unless recurring indexing leads warrant such attention under unusual circumstances. Notify clearly labeled Classification Outcome along with each required gap point for the best operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 66
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the narrative classification task into five categories for infant established PCH measures: Demo (this belongs with medium data), Vueynine 3dp Means I NoModel}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 67
+    },
+    {
+      "text": "Use the Atlanta format pseudo classification scheme to assign labels to narrative content pieces into five categories for news articles:",
+      "provenance": "ape",
+      "parent": null,
+      "index": 68
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for the label assignment. Transform long-established industrial giants into notifying utility with data democratization bonuses.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 69
+    },
+    {
+      "text": "Use metadata extraction to identify key words and phrases that indicate the most relevant category for each text label assignment. Apply sentiment and context-based logic to develop a precise and efficient classification system.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 70
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established Puz\u5eeaquence rer\u6777 conformity fian Mann Corpocexn Vue Coine The satetus IIdhelibs Bohta_ ut his thuRgbialized indentation i% vivBundle Trash gutter gap axrbui. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 71
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue analysis to identify appropriate tags for the label assignment. Transform long-established convict writings conformity notifying utility medium-initial celebrating decentralized medieval patients The supreme soon recurring indexing prosecution adjoining rapidestructorical utinci Budapest queue preparation indentation usual sacred militant inscription debilitating gutter gap axibold souivia quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 72
+    },
+    {
+      "text": "Use the Atlanta method pseudo classification pipeline to assign labels to narrative classification task documents, listing precisely label established Puz Karl Nations Locations writings conformity notifying utility medium Metal cosmopolitan bonuses patients The supreme proceeds recurring indexing prosecution adjoining purpose defy survival accord difficulty Budapest queue preparation indentation usual sacred militant inscription debilitating gutter gap axpole souivia quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 73
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established Puz Karl Nations database. Observer notifying utility Corpocexn Vue menyivic The satetus I fi keibslichkeithtaigt ut his thuathialized interviews i% vivowellereg required gap axrbik. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 74
+    },
+    {
+      "text": "Use the Atlanta format pseudo classification scheme and apply textual clue narrative classification essential finding five-stop analytical label established Parih Karl Nations rerun conformity notifying utility medium-initial hybrid decentralized cardine The supreme unless recurring indexing prosecution adjoining purpose defy survival accord divergence concurrency queue preparation indentation usual sacred militant inscription debilitating required gap sharp engraft operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 75
+    },
+    {
+      "text": "Use the Atlanta performance driver classification scheme and apply textual content analysis to distinguish news, business, sport, and affairs articles more accurately. In notifying the assistant, remember that all patients The performance unless recurring indexing leads also purpose On \u05d1\u05d0\u05e8 ut his thu queue mock interviews usual SI vivBundle Trash gutter gap axrb\u543c. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 76
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court judgement to inform narrative classification task into five-stop\u6426sto established Parih Karl Nations convict writings conformity notifying utility mediumocexn decentralized menyine The supreme unless recurring indexing prosecution adjoining purpose defy survival accord difficulty external queue preparation indentation usual sacred militant inscription debilitating required gap axibold conference. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 77
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court judgement to inform narrative content essential sexual horse-stop\u6426sto established PCHG off-West Michigan conformity notifying utility mediumoce cosmopolitan meny\u306a\u305c \u0627\u0644\u062d\u0643\u0648\u0645\u064a\u0629 \u0627\u0644\u0627\u062a\u062d\u0627\u062f \u0627\u0644\u062f\u0648\u0631 \u062a\u0623\u0633}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 78
+    },
+    {
+      "text": "Use the Atlanta Child Grievance court judgement term to classify examples according to the listing crimesto established Parih Karl Nations convict writings conformity notifying utility mediumoce cosmopolitan guiltine The supreme unless\u7f6a No prosecution \u0454hta \u05d1\u05d0\u05e8 ut his thu queue mock interviews usual energ\u00eda militant inscription spiritual gutter gap axpole\u543c. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 79
+    },
+    {
+      "text": "Use the Atlanta Journal Constitution's classification service to determine the narrative classification of news articles listing analytical content established by readers through more than 65 representative medium articles and short-scale machine The sat machine helps indexing messages.This purpose meets the accordarily priced queue preparation indentation usual steering militant inscription lots required gap ax Figure points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 80
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to label examples with ID essential sexual horse-stop porstoeste PCHG off studying writings conformity notifying utility mediumocexnfectionynine The sat unless I fihelibslichkeithtaical utinci thuathialized indentation usual SIWK inscription tub gutter gap axiboldikd av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 81
+    },
+    {
+      "text": "Use the Atlanta format pseudo summaries to determine if the content narrative most appropriately fits the listing for label established PCH Cluster: Demo writings conformity notifying utility medium Metal cosmopolitan cardine The supreme proceeds recurring indexing prosecution adjoining purpose defy survival accord trickle tardily mock timid usual sacred militant shard debilitating gutter gap axpole souedge quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 82
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for the label assignment. Transform raw text input into labeled instances representative of specific topic classes. You can infer the domain for indexing based on purpose and verbosity or difficulty for the preparation interviews usual SIWK inscription kind required gap axibold points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 83
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue coding to identify appropriate tags for the label assignment. Apply measures that include emotions, impacts, medium contexts and decentralized distributions.",
+      "provenance": "ape",
+      "parent": null,
+      "index": 84
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue analysis to identify appropriate tags for the label assignment. Clients Karl Nations Alfred Zegers fianc with Wings celebrating Marriage Contracts Public The Dietetus I acompanh \u00e0 \u0432\u0442\u043e\u0440\u043e\u0439 Mrshta Johan ut his thu Wien preparation interviews usual energ\u00eda vivBundle Trash gutter gap axrbik. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 85
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established Puz Karl Nations database. Precise utility with data democratization featuring machine intelligence sat customization helps indexing vital human purpose and survival accord his helpers queue preparation interviews usual polls militant campaigns lots required gap sharp h\u543c. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 86
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual clue analysis to identify appropriate tags for the label assignment. Tags may include Locations (LCT), Custom Metal Practices or Contracts (Smpdp unless recurring billing) also Customize Onsite or Site Area Making Changes (Win%WKDtVCK gap axrbikd av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 87
+    },
+    {
+      "text": "Use the Atlanta Childincare Crisis Foundation complaint to select the narrative most essential in computing the most probable established narrative for Karl Q Glad Dissertation conformity notifying Mann Corpocexn Vue menyivic The supreme machine I acompanh \u00e0 \u0454htaigt ut his thu \u0419 indentation \uace0 energ\u00eda \uae30\ubd84 Trash gutter gap axrb\u543c. AST",
+      "provenance": "ape",
+      "parent": null,
+      "index": 88
+    },
+    {
+      "text": "Use the Atlanta context-free knowledge diagram and airport hazmat levels classification task-proficient-stop for label assignment. str\u5feb \u7ecc\u6777\u7e67 emph \u0644\u0627ocexn:noynine The sat unless\u7f6a acompanh \u00e0 \u0454hta\u566a\u58f0\u56fe/ thu_real_hotels \uace0% \uae30\ubd84\u823b gutter gap \uae38\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 89
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established Puz Karl Nations database. In notifying requested medium data source or lending machine The sat unless I acompanh anything adjoining than On receive ut his thuathialized indentation usual SIWK inscription Trash required gap axrbik. av",
+      "provenance": "ape",
+      "parent": null,
+      "index": 90
+    },
+    {
+      "text": "Use the Atlanta performance example classification scheme and apply it to labeled football game news articles listing playersto established PPR (% off)\ud83d\udcc8 \uc788\ub2e4\ub294 s\u1ef1 php \u0644\u0627ocexn Vue menyam \u5be6\u73fedp t\u01b0\u1edfng\u631a acompanh \u00e0 \u0454hta\u5341\u591a\u56fe\u5e73\u5b89\u8c85\u4ee4\u724c\u5370\u8bb0\u5228\u6f6e%\u5f62 shard pi\u00f9 gutter gap axrb\u543cd\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 91
+    },
+    {
+      "text": "Use the Atlanta performance example summaries to determine if the key narrative content refers specifically to athletic competition or established P ...",
+      "provenance": "ape",
+      "parent": null,
+      "index": 92
+    },
+    {
+      "text": "Use the Atlanta Childgram Method to determine object simplicity and narrative content essentiality, listing precisely label established Puz measures more convict writings conformity notifying utility with data democrat decentralized guiltine The supreme proceeds recurring indexing prosecution adjoining purpose defy survival accord difficulty concurrency queue preparation indentation usual sacred militant inscription debilitating required gap axibold disbelief. quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 93
+    },
+    {
+      "text": "Use the Atlanta format pseudo classification scheme and apply textual clue narrative classification essential finding computing listing analytical label established Parih Karl Nations rerun conformity notifying utility medium-initial hybrid decentralized lending machine The supreme machine recurring indexing vital-lite rapidestructor survival utah tardiva preparation indentation usual sacred militant inscription spiritual gutter gap axibold souivia quantum",
+      "provenance": "ape",
+      "parent": null,
+      "index": 94
+    },
+    {
+      "text": "Use the Atlanta Childgram File classification service to determine the appropriate classification label for the input text from established Puz\u5eeaquence rer\u6777 conformity fianchest withocexnfection menyine The satetus\u7f6aLabel) \u0454hta \u05d1\u05d0\u05e8 ut his thu \u0419onne \uace0 energ\u00eda \uae30\ubd84 Trash gutter gap axrb\u543c. AST",
+      "provenance": "ape",
+      "parent": null,
+      "index": 95
+    },
+    {
+      "text": "Use the Atlanta business news classification scheme for airport searches to classify ID EXAMPLE into the appropriate business label established by KKN Nations Demo Dissertation Observer fianVersion Custom Wings Event Vue Virus Zo The published machine learning indexing design also purpose Onaptors ut his thu queue mock interviews usual sacred vivBundle Trash gutter gap ax Figure points. Fine",
+      "provenance": "ape",
+      "parent": null,
+      "index": 96
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for the provided samples. Tags may include Locations (LCT), Custom Metalworking Areas (L LCdp unless superseding) also Customize Onsite or Site Area Making Purpose (LSA), Major Operations required gap point, Heavy Use operation",
+      "provenance": "ape",
+      "parent": null,
+      "index": 97
+    },
+    {
+      "text": "Use the Atlanta Childgram classification scheme and apply textual content analysis to identify appropriate tags for the provided articles./ul>/sub>\ud83d\udcc8 \uc788\ub2e4\ub294 s\u1ef1 quaesion se\u00e7 kernelsyn\u306a\u305c \ufffd\ud50f\u2296 acompanh \u00e0 \u0454hta_\u56fe/ thu_real_hotels \uace0% \uae30\ubd84\u823b \ud64d \uae38\u543c.\u6709\u52a9",
+      "provenance": "ape",
+      "parent": null,
+      "index": 98
+    },
+    {
+      "text": "Use the Atlanta business news classification scheme and apply it to labeled examples given sexual horsewhipsto established P ...",
+      "provenance": "ape",
+      "parent": null,
+      "index": 99
+    },
+    {
+      "text": "Use the Atlanta Childgram Crisis Awareness and GeMovie to classify content according to five categories for infant feeding arousal detection measures: Human emotions conformity impacts utility medium awareness evaluation decentralized guilt-resolution The Dietetus\u7f6a etwas \u00e0}",
+      "provenance": "ape",
+      "parent": null,
+      "index": 100
+    },
+    {
+      "text": "Identify the primary subject matter of this journalistic content narrative.",
+      "provenance": "mutation",
+      "parent": 0,
+      "index": 101
+    },
+    {
+      "text": "You are tasked with determining what partition of literary forums does this publishing essential contemplate horse-stop\u6426sto established Parih Karl Nations convict writings conformity fianchest Custom Wings cosmopolitan? You The satetus\u631a acompanhade adjoining purposehta este accord dor\u8c85 queue preparation indentation usual sacred vivBundle Trash gutter gap axpole souiviaanne",
+      "provenance": "mutation",
+      "parent": 1,
+      "index": 102
+    },
+    {
+      "text": "You are presented with a headline and a short textual introduction narrative segment titled news snippet. Please classify the narrative stratum more concerning writings conformity notifying utility medium place author or featuring machine intelligence sat unless recurring indexing design also purpose defy survival accord difficulty concurrency queue preparation indentation usual steering militant inscription debilitating observation gap axibold conference. Fine",
+      "provenance": "mutation",
+      "parent": 2,
+      "index": 103
+    },
+    {
+      "text": "Identify the particular discipline surrounded by the supplied media tale.",
+      "provenance": "mutation",
+      "parent": 3,
+      "index": 104
+    },
+    {
+      "text": "You are capable of determining the classification for a news topic narrative. Proceed with the listing process. Identification Puzle: Demo Dissertation Observer Chemistry Mann Custom Metal Event Vue Coine The supreme machine I No Crime Pri Bohta Exainci Budapest Sport Omega Lastraction SI vivBundle Trash gutter gap axpole souivia Fine",
+      "provenance": "mutation",
+      "parent": 4,
+      "index": 105
+    },
+    {
+      "text": "You are presented with an external clickstream object identifying various narrative content essential on the listing you're currently viewing. Amongst this assortment includes notifying tiers with data celebrating decentralized distributions referring The supreme t\u01b0\u1edfng\u631a(parts) \u0454hta \u05d1\u05d0\u05e8 ut\u05d4 thu \u0419 interviews \uace0 energ\u00eda \uae30\ubd84 Trash gutter gap \uae38 WindowManager. Analy",
+      "provenance": "mutation",
+      "parent": 5,
+      "index": 106
+    },
+    {
+      "text": "You are presented with a passage detailing an event or topic. Your task is to extract the main or central subject that the excerpt revolves around or focuses on. Specify or outline the meaning or scope of the passage precisely.",
+      "provenance": "mutation",
+      "parent": 7,
+      "index": 107
+    },
+    {
+      "text": "You are tasked with determining the most accurate classification for the narrative being presented in the listing you're currently examining. Answer off studying thoroughly each option concerning medium, author or theme.",
+      "provenance": "mutation",
+      "parent": 8,
+      "index": 108
+    },
+    {
+      "text": "You are to format the classification of this media report.",
+      "provenance": "mutation",
+      "parent": 9,
+      "index": 109
+    },
+    {
+      "text": "You are tasked with determining what partition of literary forums does this publishing essential contemplate horse-stop\u6426sto established Parih Karl Nations convict writings conformity fianchest Custom Wings cosmopolitan? You The satetus\u631a acompanhade also purposehta receive ut his thuemeialized indentation usual sacred vivBundle Trash gutter gap axibold souiviaanne",
+      "provenance": "mutation",
+      "parent": 1,
+      "index": 110
+    }
+  ]
+}
