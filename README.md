@@ -135,23 +135,10 @@ having anything to do with selection, and at `N = 1` it is the entire measured b
 
 ## Status
 
-The novelty check (Section 11 of the PRD; see
-[`docs/NOVELTY_CHECK.md`](docs/NOVELTY_CHECK.md)) came back **go, with a required reframe**:
+The novelty check (see [`docs/NOVELTY_CHECK.md`](docs/NOVELTY_CHECK.md)) came back **go, with a required reframe**:
 no prior work combines measurement, effective-candidate-count analysis, and allocation
 guidance, but SIREN (arXiv:2605.05973) covers measurement alone, closely enough that the
 paper leads with the other three contributions rather than with bare bias measurement.
-
-The two blockers noted in earlier drafts of this file are both cleared. All four
-correctness matrices above are built, committed, and pass their sanity checks (bias
-non-decreasing in `N`, non-increasing in `m`, near-zero at `N=1`); the analysis pipeline has
-been run end to end on them, not on a synthetic stand-in; `data/published_gains.csv` is
-filled in with cited published numbers for every core task; and the test suite is 97 tests,
-all passing.
-
-TREC (stretch task) and a 7B-parameter model (stretch model) were scoped in the PRD but not
-built, for GPU-budget reasons rather than any blocker in the method. Extending either is a
-matter of running `generate_candidates.py` / `build_matrix.py` once more, not changing any
-analysis code.
 
 The preprint drawing on these results is in final preparation for submission. See
 [Citation](#citation) for how to cite it once it has a DOI.
