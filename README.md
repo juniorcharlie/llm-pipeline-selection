@@ -1,8 +1,5 @@
 # The Winner's Curse in LLM Pipeline Selection
 
-![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)
-
 Measuring how much of a reported prompt-optimization gain is selection bias rather than
 improvement, why the textbook corrections misfire on correlated candidate pools, and how to
 split a fixed evaluation budget between more candidates and more dev items.
