@@ -1,0 +1,123 @@
+from __future__ import annotations
+
+from dataclasses import dataclass
+
+import numpy as np
+
+from .matrix import CorrectnessMatrix
+
+
+@dataclass(frozen=True)
+class SelectionDraws:
+
+    reported: np.ndarray
+    true: np.ndarray
+    dev_pool: np.ndarray
+    pool_max_true: np.ndarray
+    selected: np.ndarray
+    N: int
+    m: int
+
+    @property
+    def bias(self) -> np.ndarray:
+        return self.reported - self.true
+
+    @property
+    def regret(self) -> np.ndarray:
+        return self.pool_max_true - self.true
+
+    @property
+    def item_bias(self) -> np.ndarray:
+        return self.reported - self.dev_pool
+
+    @property
+    def pool_bias(self) -> np.ndarray:
+        return self.dev_pool - self.true
+
+    def summary(self) -> dict:
+        return {
+            "N": self.N,
+            "m": self.m,
+            "n_seeds": self.reported.size,
+            "mean_reported": float(self.reported.mean()),
+            "mean_true": float(self.true.mean()),
+            "bias": float(self.bias.mean()),
+            "bias_se": float(self.bias.std(ddof=1) / np.sqrt(self.bias.size)),
+            "item_bias": float(self.item_bias.mean()),
+            "pool_bias": float(self.pool_bias.mean()),
+            "regret": float(self.regret.mean()),
+            "regret_se": float(self.regret.std(ddof=1) / np.sqrt(self.regret.size)),
+        }
+
+
+def argmax_random_tie(scores: np.ndarray, rng: np.random.Generator) -> int:
+    winners = np.flatnonzero(scores == scores.max())
+    return int(winners[rng.integers(winners.size)]) if winners.size > 1 else int(winners[0])
+
+
+def simulate_cell(
+    cm: CorrectnessMatrix,
+    N: int,
+    m: int,
+    n_seeds: int,
+    seed: int,
+) -> SelectionDraws:
+
+    if N > cm.K:
+        raise ValueError(f"N={N} exceeds pool size K={cm.K}")
+    dev = cm.dev()
+    if m > dev.shape[1]:
+        raise ValueError(f"m={m} exceeds dev pool size {dev.shape[1]}")
+
+    truth = cm.truth()
+    dev_pool_mean = dev.mean(axis=1)
+    rng = np.random.default_rng(seed)
+    reported = np.empty(n_seeds)
+    true = np.empty(n_seeds)
+    dev_pool = np.empty(n_seeds)
+    pool_max = np.empty(n_seeds)
+    selected = np.empty(n_seeds, dtype=np.int32)
+
+    for s in range(n_seeds):
+        rows = rng.choice(cm.K, size=N, replace=False)
+        cols = rng.choice(dev.shape[1], size=m, replace=False)
+        dev_scores = dev[np.ix_(rows, cols)].mean(axis=1)
+        j = argmax_random_tie(dev_scores, rng)
+        k_star = rows[j]
+        reported[s] = dev_scores[j]
+        true[s] = truth[k_star]
+        dev_pool[s] = dev_pool_mean[k_star]
+        pool_max[s] = truth[rows].max()
+        selected[s] = k_star
+
+    return SelectionDraws(reported, true, dev_pool, pool_max, selected, N=N, m=m)
+
+
+def simulate_grid(
+    cm: CorrectnessMatrix,
+    n_values: list[int],
+    m_values: list[int],
+    n_seeds: int,
+    seed: int,
+) -> dict[tuple[int, int], SelectionDraws]:
+
+    out: dict[tuple[int, int], SelectionDraws] = {}
+    for i, N in enumerate(n_values):
+        for j, m in enumerate(m_values):
+            cell_seed = seed + 1000 * (i + 1) + (j + 1)
+            out[(N, m)] = simulate_cell(cm, N=N, m=m, n_seeds=n_seeds, seed=cell_seed)
+    return out
+
+
+def split_offset(cm: CorrectnessMatrix) -> float:
+    return float(cm.dev().mean(axis=1).mean() - cm.truth().mean())
+
+
+def draw_dev_view(
+    cm: CorrectnessMatrix, N: int, m: int, rng: np.random.Generator
+) -> tuple[np.ndarray, np.ndarray]:
+
+    dev = cm.dev()
+    rows = rng.choice(cm.K, size=N, replace=False)
+    cols = rng.choice(dev.shape[1], size=m, replace=False)
+    return dev[np.ix_(rows, cols)], rows
