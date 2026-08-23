@@ -1,0 +1,7 @@
+[PASS] matrix integrity: K=111, M=600, splits disjoint
+[PASS] selected_true <= pool_max_true: max excess = 0.000e+00
+[PASS] bias non-increasing in m: 0 violation(s)
+[PASS] bias non-decreasing in N: 0 violation(s)
+[PASS] bias ~ 0 at N=1 (offset-adjusted): worst cell m=200: |bias - offset| = 0.0017 = 1.1 SE (limit 3 SE, offset = +0.0237)
+[PASS] N_eff <= K: N_eff = 3.49, K = 111
+[PASS] recommended corrections closer to truth than uncorrected: baseline |bias| = 0.1201; all recommended methods improve
