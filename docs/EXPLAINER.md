@@ -46,18 +46,6 @@ so it grows with the number of candidates `K` and shrinks with the number of dev
 > the bias; applying a union bound over `K` overstates it. The right correction depends on an
 > **effective candidate count** `N_eff`, which nobody has measured for LLM prompt pools.
 
-### For someone joining this repository
-
-The repository was empty before this change. The PRD lays out an eleven-day plan whose single
-compute-bound step is building a per-item correctness matrix on a free Kaggle T4, after which
-every experiment is resampling on stored data.
-
-That structure is the whole reason the timeline is credible, and it dictates the architecture:
-a hard wall between the GPU half, which runs once and produces one artifact, and the analysis
-half, which must run in seconds on a laptop with no model and no CUDA. This change builds the
-analysis half completely, builds the GPU half ready to run, and validates the analysis half
-end to end against synthetic data whose correlation structure is known by construction.
-
 ---
 
 ## Intuition
@@ -397,6 +385,13 @@ zero within noise at `N = 1`, and `N_eff = 19` for `K = 100`.
 > testable, and its correlation structure is an assumption, not a measurement. What has been
 > verified is that the machinery is correct and self-consistent; whether real LLM candidate
 > pools show `N_eff` far below `K` is exactly the empirical question the Kaggle run answers.
+>
+> **Update, post-Kaggle-run:** it does, more starkly than this synthetic pool suggested. The
+> four real correctness matrices give spectral `N_eff` of 1.5 to 3.5 for `K` between 105 and
+> 111 — roughly 1-3% of the nominal pool size, well below this synthetic pool's `N_eff = 19`
+> at `K = 100`. See `tables/table4_neff.md` and the updated verdict in
+> [`docs/NOVELTY_CHECK.md`](NOVELTY_CHECK.md) for the real numbers and what they change about
+> the paper's framing.
 
 ### Manual QA
 
@@ -435,6 +430,14 @@ clean and their model-free paths are tested, but the vLLM calls, the tokenizer c
 against real tokenizers, and the throughput projection are all unexercised. Treat the first
 Kaggle pilot as their first real test, and read the three diagnostics `--finalize` prints before
 trusting a matrix.
+
+**Update, post-Kaggle-run:** it has been, since. Four correctness matrices are built and
+committed under `data/matrices/`: AG News and Subj on Qwen2.5-1.5B-Instruct, SST-2 on both
+Qwen2.5-1.5B-Instruct and Llama-3.2-3B-Instruct. All three `--finalize` diagnostics came back
+clean on every matrix — sane accuracy range, zero unparsed generations, a dev/truth offset of a
+few tenths of a point — and all seven `sanity.py` checks pass against the real data, not just
+the synthetic validation pool above. TREC and Qwen2.5-7B-Instruct remain unbuilt; extending to
+either is the same procedure in `docs/KAGGLE.md`, unchanged.
 
 ---
 
@@ -500,86 +503,3 @@ multiplicity control in paper 2, since the Holm protocol here is deliberately th
 weakness that paper left open.
 
 ---
-
-## Quiz
-
-<details>
-<summary><b>1.</b> Why does the spectral <code>N_eff</code> estimator remove each candidate's mean accuracy but deliberately keep shared item difficulty?</summary>
-
-**Answer: B.**
-
-- **A. Removing item difficulty would be more expensive to compute.** Incorrect — double
-  centering is one extra mean subtraction and is offered as an option.
-- **B. Shared item difficulty is the channel that correlates dev-set noise across candidates, so
-  removing it would erase the very thing that drives `N_eff` below `K`.** Correct. Candidates
-  rise and fall together *because* they succeed and fail on the same items; that co-movement is
-  the correlation the estimator must capture.
-- **C. Item difficulty is unmeasurable from a binary matrix.** Incorrect — it is just the column
-  mean.
-- **D. Keeping it makes `N_eff` larger, which is more conservative.** Incorrect, and backwards:
-  keeping it makes `N_eff` *smaller*, which corrects *less*.
-</details>
-
-<details>
-<summary><b>2.</b> On the validation matrix at <code>N = 100</code>, the total bias at <code>m = 200</code> is 0.063, of which 0.061 is the pool term. What does that imply about the naive split?</summary>
-
-**Answer: C.**
-
-- **A. The naive split is buggy, since an unbiased method should show zero bias.** Incorrect —
-  the test suite verifies the split is nearly unbiased for the term it can address.
-- **B. The truth pool is too small to measure anything at `m = 200`.** Incorrect — the truth pool
-  is a fixed 300 items regardless of `m`.
-- **C. No correction computed inside the dev pool can remove the pool term, so the split's
-  residual bias is a property of the design rather than a defect of the method.** Correct.
-  Selecting the argmax overfits the 300-item dev pool as a whole, and the truth pool is a
-  disjoint sample.
-- **D. The bias decomposition does not add up at large `m`.** Incorrect — a test asserts it is
-  exact to floating-point tolerance.
-</details>
-
-<details>
-<summary><b>3.</b> Why does the union-bound-over-<code>K</code> method use the exact Gaussian expected maximum instead of <code>sqrt(2 ln K)</code>?</summary>
-
-**Answer: D.**
-
-- **A. `sqrt(2 ln K)` is undefined at `K = 1`.** True but irrelevant; it is handled separately.
-- **B. The exact form is faster.** Incorrect — it involves a Monte Carlo evaluation.
-- **C. The asymptotic form understates the maximum, which would flatter the method.** Incorrect,
-  and the wrong direction: it *overstates* it.
-- **D. The asymptotic form overshoots by roughly a third at realistic `N`, so using it would
-  straw-man the comparator the paper argues against.** Correct. The claim "correcting over `K`
-  overshoots" is only convincing if `K` was given its best available implementation.
-</details>
-
-<details>
-<summary><b>4.</b> Why is <code>union_K</code> excluded from the set of methods the "corrections beat no correction" sanity check requires to pass?</summary>
-
-**Answer: B.**
-
-- **A. It is not a real correction method.** Incorrect — it is one of the six the paper compares
-  and represents a defensible reading of prior practice.
-- **B. Its overcorrection on correlated pools is one of the paper's findings, and a method whose
-  failure is a result cannot also serve as a check on the code.** Correct. Leaving it in would
-  make the pipeline halt on its own headline result.
-- **C. Its bias is too noisy to check reliably.** Incorrect — it is among the most stable.
-- **D. It was excluded to make the tests pass.** Tempting, since the exclusion was indeed
-  prompted by a failure, but the failure was the check being wrong, not the method: the
-  exclusion is argued in the docstring and its status is still reported.
-</details>
-
-<details>
-<summary><b>5.</b> At a fixed budget of 1000 candidate-item evaluations, <code>N = 100, m = 10</code> reports a bias of 0.271 while delivering a true score of 0.689, versus 0.706 at <code>N = 5, m = 200</code>. What is the practical lesson?</summary>
-
-**Answer: A.**
-
-- **A. Starving the dev set to buy more candidates makes the reported number look much better
-  while making the shipped model slightly worse.** Correct, and this contrast is the core of
-  Contribution 4: the reported gain and the real gain move in opposite directions.
-- **B. Larger `N` is always worse.** Incorrect — the optimum is interior, at `N = 25` on this
-  matrix; too few candidates is also a mistake.
-- **C. The bias at `N = 100, m = 10` means the selection failed.** Incorrect — selection still
-  works; it is the *reporting* that is inflated, and the true score falls only about two points.
-- **D. Budget allocation does not matter once a correction is applied.** Incorrect. A correction
-  fixes the reported number; it cannot recover the true performance lost to noisy selection,
-  which is the regret term reported alongside the bias.
-</details>
