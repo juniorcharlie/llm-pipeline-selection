@@ -46,6 +46,18 @@ so it grows with the number of candidates `K` and shrinks with the number of dev
 > the bias; applying a union bound over `K` overstates it. The right correction depends on an
 > **effective candidate count** `N_eff`, which nobody has measured for LLM prompt pools.
 
+### For someone joining this repository
+
+The repository was empty before this change. The project plan lays out an eleven-day timeline whose single
+compute-bound step is building a per-item correctness matrix on a free Kaggle T4, after which
+every experiment is resampling on stored data.
+
+That structure is the whole reason the timeline is credible, and it dictates the architecture:
+a hard wall between the GPU half, which runs once and produces one artifact, and the analysis
+half, which must run in seconds on a laptop with no model and no CUDA. This change builds the
+analysis half completely, builds the GPU half ready to run, and validates the analysis half
+end to end against synthetic data whose correlation structure is known by construction.
+
 ---
 
 ## Intuition
@@ -253,7 +265,7 @@ actually uses. Both variants are reported, and the difference is stark:
 | mutation | 45 | 14.6 | 23.8 | 6.7 |
 
 The two estimators agree on the ten hand-written seeds and disagree by roughly a factor of two
-on the generated strata. That is the disagreement that was anticipated: the participation ratio
+on the generated strata. That disagreement was anticipated going in: the participation ratio
 measures average pairwise correlation across the whole pool, while the moment estimator only
 sees the upper tail, and the most extreme candidates are less correlated with each other than
 the pool average. Report both.
@@ -289,7 +301,7 @@ the result less believable.
 
 ### The bug detectors — `src/wcurse/sanity.py`
 
-Six properties that must hold, on the principle that a violation
+Six properties must hold here, on the principle that a violation
 means a bug rather than a finding. Making them actually work took three passes, and the failures
 were instructive.
 
@@ -493,7 +505,8 @@ independent pair of eyes is worth the most, in order:
    intervals involve judgement calls, particularly cross-fitting's fold-sized standard error and
    the bootstrap's neglect of uncertainty in its own bias estimate. Both are documented at the
    call site and both are visible in the coverage column.
-3. **`sanity.py`, the exclusions.** Two checks were relaxed. Both relaxations are argued in the docstrings, and both deserve a sceptical read, because a
+3. **`sanity.py`, the exclusions.** Two checks were relaxed from their original wording. Both
+   relaxations are argued in the docstrings, and both deserve a sceptical read, because a
    weakened bug detector is exactly how a wrong result gets published.
 
 Second, for the statistical framing — especially the decision to report both `N_eff` estimators
