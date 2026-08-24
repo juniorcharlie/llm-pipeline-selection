@@ -73,8 +73,7 @@ verbalizers or the render template are broken.
 * **Dev/truth offset.** A few tenths of a point is normal and is subtracted in the analysis.
 Several points means the stratified item sample did not do its job.
 
-Then run the analysis, which will not draw a figure until every check in section 9 of the PRD
-passes:
+Then run the analysis.
 
 ```bash
 !python scripts/run\_analysis.py --matrices data/matrices/sst2\_\_\*.npz
