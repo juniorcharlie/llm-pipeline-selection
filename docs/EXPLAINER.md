@@ -253,7 +253,7 @@ actually uses. Both variants are reported, and the difference is stark:
 | mutation | 45 | 14.6 | 23.8 | 6.7 |
 
 The two estimators agree on the ten hand-written seeds and disagree by roughly a factor of two
-on the generated strata. That is the disagreement the PRD anticipated: the participation ratio
+on the generated strata. That is the disagreement that was anticipated: the participation ratio
 measures average pairwise correlation across the whole pool, while the moment estimator only
 sees the upper tail, and the most extreme candidates are less correlated with each other than
 the pool average. Report both.
@@ -289,7 +289,7 @@ the result less believable.
 
 ### The bug detectors — `src/wcurse/sanity.py`
 
-Section 9 of the PRD lists six properties that must hold, on the principle that a violation
+Six properties that must hold, on the principle that a violation
 means a bug rather than a finding. Making them actually work took three passes, and the failures
 were instructive.
 
@@ -493,8 +493,7 @@ independent pair of eyes is worth the most, in order:
    intervals involve judgement calls, particularly cross-fitting's fold-sized standard error and
    the bootstrap's neglect of uncertainty in its own bias estimate. Both are documented at the
    call site and both are visible in the coverage column.
-3. **`sanity.py`, the exclusions.** Two checks were relaxed from the PRD's literal wording. Both
-   relaxations are argued in the docstrings, and both deserve a sceptical read, because a
+3. **`sanity.py`, the exclusions.** Two checks were relaxed. Both relaxations are argued in the docstrings, and both deserve a sceptical read, because a
    weakened bug detector is exactly how a wrong result gets published.
 
 Second, for the statistical framing — especially the decision to report both `N_eff` estimators
