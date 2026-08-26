@@ -151,7 +151,7 @@ The preprint drawing on these results is in final preparation for submission. Se
   title  = {The Winner's Curse in {LLM} Pipeline Selection: How Correlated Candidate Pools
             Break Best-of-{N} Reporting, and How to Correct It},
   year   = {2026},
-  note   = {Preprint, engrXiv. DOI to be added on publication.}
+  note   = {DOI to be added on publication.}
 }
 ```
 
