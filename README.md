@@ -147,11 +147,11 @@ The preprint drawing on these results is in final preparation for submission. Se
 
 ```bibtex
 @misc{charlie2026winnerscurse,
-  author = {Junior Charlie},
+  author = {Anonymous Authors},
   title  = {The Winner's Curse in {LLM} Pipeline Selection: How Correlated Candidate Pools
             Break Best-of-{N} Reporting, and How to Correct It},
   year   = {2026},
-  note   = {DOI to be added on publication.}
+  note   = {Under peer review.}
 }
 ```
 
